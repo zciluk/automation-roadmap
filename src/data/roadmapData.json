@@ -31,6 +31,12 @@
           "urlLabel": "some urlLabel"
         },
         {
+          "name": "Git branching",
+          "description": "Learn Git branching is the most visual and interactive way to learn Git on the web",
+          "url": "https://learngitbranching.js.org/",
+          "urlLabel": "Git branching"
+        },
+        {
           "name": "commit/pull request",
           "description": "description something Lorem ipsum",
           "url": "http://google2.com",
@@ -47,18 +53,20 @@
     {
       "Tool selection": [
         {
-          "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Postman Beginner's Course - API Testing",
+          "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
+          "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
+          "urlLabel": "postman"
         }
       ]
     },
     {
       "Html & css": [
         {
-          "name": "placeholder",
-          "description": "without button"
+          "name": "Web elements",
+          "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
+          "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
+          "urlLabel": "Web elements" 
         }
       ]
     },
@@ -113,10 +121,10 @@
     {
       "Java & Selenium": [
         {
-          "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Java programming",
+          "description": "The material covered here is equivalent to the curriculum of a full semester of Java programming at a university and is designed for complete beginners to programming.",
+          "url": "https://testautomationu.applitools.com/java-programming-course/",
+          "urlLabel": "Java programming"
         }
       ]
     },
