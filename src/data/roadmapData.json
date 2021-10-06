@@ -93,20 +93,50 @@
     {
       "Automation patterns": [
         {
-          "name": "page object ",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Top Design Patterns",
+          "description": "Design Patterns",
+          "url": "https://www.devbridge.com/articles/top-design-pattern-test-automation-frameworks/",
+          "urlLabel": "Design Patterns"
+        },
+        {
+          "name": "Page Object Models (POM)",
+          "description": "Page Object Models",
+          "url": "https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b",
+          "urlLabel": "Page Object Models"
+        },
+        {
+          "name": "App Actions",
+          "description": "App Actions",
+          "url": "https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
+          "urlLabel": "App Actions"
+        },
+        {
+          "name": "Screenplay Pattern",
+          "description": "Screenplay Pattern",
+          "url": "https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay/",
+          "urlLabel": "Screenplay Pattern"
         }
       ]
     },
     {
       "Javascript & Cypress": [
         {
-          "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Javascript",
+          "description": "Javascript",
+          "url": "https://testingjavascript.com/",
+          "urlLabel": "Javascript"
+        },
+        {
+          "name": "Cypress Tutorial",
+          "description": "Cypress Tutorial",
+          "url": "https://www.udemy.com/course/cypress-io-master-class/",
+          "urlLabel": "Cypress"
+        },
+        {
+          "name": "Cypress Test Automation University",
+          "description": "Cypress Tutorial",
+          "url": "https://testautomationu.applitools.com/cypress-tutorial/",
+          "urlLabel": "Cypress"
         }
       ]
     },
@@ -133,10 +163,22 @@
     {
       "BDD": [
         {
-          "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Gherkin",
+          "description": "Gherkin example",
+          "url": "https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/",
+          "urlLabel": "Gherkin"
+        },
+        {
+          "name": "Writing good Gherkin",
+          "description": "Gherkin example",
+          "url": "https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/",
+          "urlLabel": "Gherkin"
+        },
+        {
+          "name": "BDD Tutorial",
+          "description": "BDD Tutorial",
+          "url": "https://automationpanda.com/2017/01/25/bdd-101-introducing-bdd/",
+          "urlLabel": "BDD"
         }
       ]
     },
@@ -154,11 +196,31 @@
       "API automation": [
         {
           "name": "Postman",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "description": "Postman Learning Center",
+          "url": "https://learning.postman.com/docs/getting-started/introduction/",
+          "urlLabel": "Postman"
+        },
+        {
+          "name": "Python Requests",
+          "description": "Basic Python Requests documentation",
+          "url": "https://docs.python-requests.org/en/latest/",
+          "urlLabel": "Requests"
+        },
+        {
+          "name": "Python Requests Tutorial",
+          "description": "Basic Python Requests tutorial",
+          "url": "https://realpython.com/python-requests/",
+          "urlLabel": "Requests"
+        },
+        {
+          "name": "REST Assured Tutorial",
+          "description": "REST Assured Tutorial",
+          "url": "https://www.baeldung.com/rest-assured-tutorial",
+          "urlLabel": "REST Assured"
         }
+
       ]
+  
     }
   ],
   "expert": [
