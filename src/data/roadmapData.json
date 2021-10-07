@@ -128,13 +128,13 @@
         },
         {
           "name": "Cypress Tutorial",
-          "description": "Cypress Tutorial",
+          "description": "UDEMY Cypress Tutorial",
           "url": "https://www.udemy.com/course/cypress-io-master-class/",
           "urlLabel": "Cypress"
         },
         {
           "name": "Cypress Test Automation University",
-          "description": "Cypress Tutorial",
+          "description": "Test Automation University Cypress Tutorial",
           "url": "https://testautomationu.applitools.com/cypress-tutorial/",
           "urlLabel": "Cypress"
         }
