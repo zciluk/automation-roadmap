@@ -108,7 +108,7 @@
           "name": "App Actions",
           "description": "App Actions",
           "url": "https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
-          "urlLabel": "App Actions"
+          "urlLabel": "App Actions, Cypress"
         },
         {
           "name": "Screenplay Pattern",
@@ -133,9 +133,21 @@
           "urlLabel": "Cypress"
         },
         {
-          "name": "Cypress Test Automation University",
-          "description": "Test Automation University Cypress Tutorial",
+          "name": "Cypress Test Automation University Beginner",
+          "description": "TAU Cypress Beginner Tutorial",
           "url": "https://testautomationu.applitools.com/cypress-tutorial/",
+          "urlLabel": "Cypress"
+        },
+        {
+          "name": "Cypress Test Automation University Advanced",
+          "description": "TAU Cypress Advanced Tutorial",
+          "url": "https://testautomationu.applitools.com/advanced-cypress-tutorial/",
+          "urlLabel": "Cypress"
+        },
+        {
+          "name": "Cypress Tips & Tricks",
+          "description": "Cypress Tips & Tricks",
+          "url": "https://cypress.tips/",
           "urlLabel": "Cypress"
         }
       ]
