@@ -111,13 +111,7 @@
     {
       "Javascript & Cypress": [
         {
-          "name": "Cypress V6- UI Automation Testing + API Testing + Frameworks",
-          "description": "By the end of this course, you will be able to build simplistic to advanced automation tests for any Web Application using Cypress",
-          "url": "https://www.udemy.com/course/cypress-io-master-class/",
-          "urlLabel": "Cypress V6"
-        },
-        {
-          "name": "JavaScript CodeCademy",
+          "name": "JavaScript basics & exercises",
           "description": "You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. The concepts covered in these lessons lay the foundation for using JavaScript in any environment.",
           "url": "https://www.codecademy.com/learn/introduction-to-javascript",
           "urlLabel": "JavaScript basics with CodeCademy"
@@ -139,7 +133,7 @@
           "urlLabel": "Samouczek Programisty"
         },
         {
-          "name": "Selenium WebDriver with Java -Basics to Advanced+Frameworks",
+          "name": "Selenium WebDriver / Java",
           "description": "By the end of this course,You will be Mastered on Selenium Webdriver with strong Core JAVA basics",
           "url": "https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/",
           "urlLabel": "Selenium Java with Rahul Shetty"
@@ -169,7 +163,7 @@
     {
       "Mobile automation": [
         {
-          "name": "Appium with Rahul Shetty",
+          "name": "Appium Selenium / Java",
           "description": "By the end of this course you will be able to automate any (Native,Hybrid,Web) Apps in Android/IOS using Appium",
           "url": "https://www.udemy.com/course/mobile-automation-using-appiumselenium-3/",
           "urlLabel": "Appium"
