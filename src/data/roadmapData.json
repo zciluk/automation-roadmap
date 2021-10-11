@@ -1,24 +1,42 @@
 {
   "beginner": [
     {
-      "automation concept": [
+      "Automation concepts": [
         {
-          "name": "what is test automation?",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "What is test automation?",
+          "description": "Automated testing is a method in software testing that leverages automation tools to control the execution of tests instead of a human tester",
+          "url": "https://www.perfecto.io/blog/what-is-test-automation",
+          "urlLabel": "What Is Test Automation?"
         },
         {
-          "name": "what are the benefits of automation?",
-          "description": "description something Lorem ipsum",
-          "url": "http://google2.com",
-          "urlLabel": "some urlLabel2"
+          "name": "Types of automated tests",
+          "description": "There are many types of automated tests, the most common ones are: - Code Analysis, - Unit tests, - Integration tests, - E2E/Acceptence tests",
+          "url": "https://www.testim.io/blog/what-is-test-automation/",
+          "urlLabel": "Types of automated tests"
         },
         {
-          "name": "when to use it?",
-          "description": "description3 something Lorem ipsum",
-          "url": "http://google3.com",
-          "urlLabel": "some urlLabel3"
+          "name": "What are the benefits of automation?",
+          "description": "Saves time on regression testing done by QA == Reduces risk of human error that can happen durning regression testing == Speeds up time of getting feedback about state of system under test == It  can be easily implemented into CI/CD",
+          "url": "https://www.testim.io/blog/test-automation-benefits/",
+          "urlLabel": "Test Automation Benefits"
+        },
+        {
+          "name": "When to automate?",
+          "description": "When there are timeconsuming and repetative tests that have to be executed manually == When the tests will be run often == When the benefit of automation will be higher than costs == When test setup is complex for manual testing",
+          "url": "https://www.globalapptesting.com/blog/when-should-you-automate-your-software-testing",
+          "urlLabel": "When Should You Automate Your Software Testing?"
+        },
+        {
+          "name": "When NOT to automate?",
+          "description": "When the cost of automation will be higher than the benefits == When the test won't result with predictable results == When the test will be only run once",
+          "url": "https://testguild.com/what-to-automate/",
+          "urlLabel": "15 Reasons Why You Should (or shouldn’t) Automate a Test"
+        },
+        {
+          "name": "What makes for good automation?",
+          "description": "Reliability - tests shouldn't fail without a reason and should be able to run multiple times == Speed - tests should give quick feedback about state of the system under test == Reporting - tests should return a good report that is easy to understand by everyone (especially important when something fails) == Maintainability - tests should be easy to start, modify and create == Confidence - tests should give confidence that the system works as expected (or doesn't if something fails)",
+          "url": "https://www.softwaretestinggenius.com/typical-attributes-of-good-automated-test-cases/",
+          "urlLabel": "Typical Attributes Of Good Automated Test Cases"
         }
       ]
     },
