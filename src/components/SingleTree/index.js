@@ -1,4 +1,4 @@
-import { Popup, Grid, Segment, Header, Button, Icon } from "semantic-ui-react";
+import { Popup, Grid, Segment, Header, Button } from "semantic-ui-react";
 import PopupContent from "../PopupContent";
 
 const SingleTree = ({ data, color }) => {

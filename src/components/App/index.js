@@ -3,7 +3,7 @@ import { Segment, Divider, Header, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import roadmapData from "../../data/roadmapData.json";
 import SingleTree from "../SingleTree";
-console.log(roadmapData.beginner);
+
 const App = () => {
   return (
     <Segment>
