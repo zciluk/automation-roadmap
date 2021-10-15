@@ -1,47 +1,47 @@
-import { Accordion, Segment, Label, Header, Button } from "semantic-ui-react";
-const createPanel = (name, description, url, label, color) => [
-  {
-    key: name,
-    title: {
-      content: <Label color={color} content={name} />,
-    },
-    content: {
-      content: (
-        <Segment compact black textAlign="left">
-          <p>{description}</p>
-          {url && (
-            <Button as="a" basic size="mini" href={url} target="_blank">
-              {label}
-            </Button>
-          )}
-        </Segment>
-      ),
-    },
-  },
-];
-const SingleTree = ({ name, data, color }) => {
-  return (
-    <Segment tertiary inverted color={color}>
-      <Segment.Group horizontal>
-        {data.map((skill) => (
-          <Segment>
-            <Header>{Object.keys(skill)}</Header>
+import { Popup, Grid, Segment, Header, Button } from "semantic-ui-react";
+import PopupContent from "../PopupContent";
 
-            {Object.values(skill)[0].map((subSkill) => (
-              <Accordion
-                defaultActiveIndex={1}
-                panels={createPanel(
-                  subSkill.name,
-                  subSkill.description,
-                  subSkill.url,
-                  subSkill.urlLabel,
-                  color
-                )}
-              />
-            ))}
-          </Segment>
-        ))}
-      </Segment.Group>
+const SingleTree = ({ data, color }) => {
+  return (
+    <Segment padded tertiary inverted color={color}>
+      <Grid columns="equal" stackable>
+        <Grid.Row stretched>
+          {data.map((skill) => (
+            <Grid.Column>
+              <Segment padded textAlign="center">
+                <Header size="medium" color="black">
+                  {Object.keys(skill)}
+                </Header>
+                <br />
+                <Grid relaxed padded>
+                  {Object.values(skill)[0].map((subSkill) => (
+                    <Grid.Row>
+                      <Popup
+                        content={
+                          <PopupContent data={subSkill.data} color={color} />
+                        }
+                        on="click"
+                        size="small"
+                        pinned
+                        trigger={
+                          <Button
+                            as="a"
+                            compact
+                            fluid
+                            size="small"
+                            color={color}
+                            content={subSkill.name}
+                          />
+                        }
+                      />
+                    </Grid.Row>
+                  ))}
+                </Grid>
+              </Segment>
+            </Grid.Column>
+          ))}
+        </Grid.Row>
+      </Grid>
     </Segment>
   );
 };
