@@ -61,7 +61,7 @@
               "urlLabel": "Typical Attributes Of Good Automated Test Cases"
             },
             {
-              "description":"",
+              "description": "",
               "url": "https://automationpanda.com/2020/07/09/12-traits-of-highly-effective-tests/",
               "urlLabel": "Traits of highly effective tests"
             }
@@ -156,24 +156,74 @@
       ]
     },
     {
-      "IDE & plugins": [
+      "IDE, Code Editors & plugins": [
         {
-          "name": "VS code",
+          "name": "Visual Studio Code",
           "data": [
             {
-              "description": "description 1",
-              "url": "http://google.com",
-              "urlLabel": "some urlLabel"
+              "description": "The most popular source-code editor worldwide (as for 2021). Developed by Microsoft",
+              "url": "https://code.visualstudio.com/",
+              "urlLabel": "Visual Studio Code main page"
             }
           ]
         },
         {
-          "name": "Intelliji",
+          "name": "Atom",
           "data": [
             {
-              "description": "description 1",
-              "url": "http://google.com",
-              "urlLabel": "some urlLabel"
+              "description": "Source code editor developed by GitHub",
+              "url": "https://atom.io/",
+              "urlLabel": "Atom main page"
+            }
+          ]
+        },
+        {
+          "name": "Sublime Text",
+          "data": [
+            {
+              "description": "Sublime Text is a sophisticated text editor for code, markup and prose",
+              "url": "https://sublimetext.com/",
+              "urlLabel": "Sublime Text main page"
+            }
+          ]
+        },
+        {
+          "name": "Visual Studio",
+          "data": [
+            {
+              "description": "Full-featured IDE to code, debug, test, and deploy to any platform. Developed by Microsoft",
+              "url": "https://visualstudio.microsoft.com/",
+              "urlLabel": "Visual Studio main page"
+            }
+          ]
+        },
+        {
+          "name": "WebStorm",
+          "data": [
+            {
+              "description": "WebStorm is an IDE for JavaScript and related technologies, one of many IDE developed by Jetbrains",
+              "url": "https://jetbrains.com/webstorm/",
+              "urlLabel": "WebStorm main page"
+            }
+          ]
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "data": [
+            {
+              "description": "IntelliJ is an IDE for Java and related technologies (Kotlin for example), one of many IDE developed by Jetbrains",
+              "url": "https://jetbrains.com/idea/",
+              "urlLabel": "IntelliJ IDEA main page"
+            }
+          ]
+        },
+        {
+          "name": "Eclipse",
+          "data": [
+            {
+              "description": "Eclipse primary use is for developing Java applications, but it may also be used to develop applications in other programming languages",
+              "url": "https://eclipse.org/downloads/",
+              "urlLabel": "Eclipse main page"
             }
           ]
         }
