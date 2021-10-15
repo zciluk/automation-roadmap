@@ -4,39 +4,68 @@
       "Automation concepts": [
         {
           "name": "What is test automation?",
-          "description": "Automated testing is a method in software testing that leverages automation tools to control the execution of tests instead of a human tester",
-          "url": "https://www.perfecto.io/blog/what-is-test-automation",
-          "urlLabel": "What Is Test Automation?"
+          "data": [
+            {
+              "description": "Automated testing is a method in software testing that leverages automation tools to control the execution of tests instead of a human tester",
+              "url": "https://www.perfecto.io/blog/what-is-test-automation",
+              "urlLabel": "What Is Test Automation?"
+            }
+          ]
         },
         {
           "name": "Types of automated tests",
-          "description": "There are many types of automated tests, the most common ones are: - Code Analysis, - Unit tests, - Integration tests, - E2E/Acceptence tests",
-          "url": "https://www.testim.io/blog/what-is-test-automation/",
-          "urlLabel": "Types of automated tests"
+          "data": [
+            {
+              "description": "There are many types of automated tests, the most common ones are: \n* Code Analysis \n* Unit tests \n* Integration tests \n* E2E/Acceptence tests",
+              "url": "https://www.testim.io/blog/what-is-test-automation/",
+              "urlLabel": "Types of automated tests"
+            }
+          ]
         },
         {
           "name": "What are the benefits of automation?",
-          "description": "Saves time on regression testing done by QA == Reduces risk of human error that can happen durning regression testing == Speeds up time of getting feedback about state of system under test == It  can be easily implemented into CI/CD",
-          "url": "https://www.testim.io/blog/test-automation-benefits/",
-          "urlLabel": "Test Automation Benefits"
+          "data": [
+            {
+              "description": "Test automation has many benefits, some of them are: \n * Saves time on regression testing done by QA \n * Reduces risk of human error that can happen durning regression testing \n * Speeds up time of getting feedback about state of system under test \n * It  can be easily implemented into CI/CD",
+              "url": "https://www.testim.io/blog/test-automation-benefits/",
+              "urlLabel": "Test Automation Benefits"
+            }
+          ]
         },
         {
           "name": "When to automate?",
-          "description": "When there are timeconsuming and repetative tests that have to be executed manually == When the tests will be run often == When the benefit of automation will be higher than costs == When test setup is complex for manual testing",
-          "url": "https://www.globalapptesting.com/blog/when-should-you-automate-your-software-testing",
-          "urlLabel": "When Should You Automate Your Software Testing?"
+          "data": [
+            {
+              "description": "When should you consider to automate tests? \n * When there are timeconsuming and repetative tests that have to be executed manually \n * When the tests will be run often \n * When the benefit of automation will be higher than costs \n * When test setup is complex for manual testing",
+              "url": "https://www.globalapptesting.com/blog/when-should-you-automate-your-software-testing",
+              "urlLabel": "When Should You Automate Your Software Testing?"
+            }
+          ]
         },
         {
           "name": "When NOT to automate?",
-          "description": "When the cost of automation will be higher than the benefits == When the test won't result with predictable results == When the test will be only run once",
-          "url": "https://testguild.com/what-to-automate/",
-          "urlLabel": "15 Reasons Why You Should (or shouldn’t) Automate a Test"
+          "data": [
+            {
+              "description": "When you shouldn't consider automating tests? \n * When the cost of automation will be higher than the benefits \n * When the test won't result with predictable results \n * When the test will be only run once",
+              "url": "https://testguild.com/what-to-automate/",
+              "urlLabel": "15 Reasons Why You Should (or shouldn’t) Automate a Test"
+            }
+          ]
         },
         {
           "name": "What makes for good automation?",
-          "description": "Reliability - tests shouldn't fail without a reason and should be able to run multiple times == Speed - tests should give quick feedback about state of the system under test == Reporting - tests should return a good report that is easy to understand by everyone (especially important when something fails) == Maintainability - tests should be easy to start, modify and create == Confidence - tests should give confidence that the system works as expected (or doesn't if something fails)",
-          "url": "https://www.softwaretestinggenius.com/typical-attributes-of-good-automated-test-cases/",
-          "urlLabel": "Typical Attributes Of Good Automated Test Cases"
+          "data": [
+            {
+              "description": "What are the characteristic of good automated tests? \n* Reliability - tests shouldn't fail without a reason and should be able to run multiple times \n* Speed - tests should give quick feedback about state of the system under test \n* Reporting - tests should return a good report that is easy to understand by everyone (especially important when something fails) \n* Maintainability - tests should be easy to start, modify and create \n* Confidence - tests should give confidence that the system works as expected (or doesn't if something fails)",
+              "url": "https://www.softwaretestinggenius.com/typical-attributes-of-good-automated-test-cases/",
+              "urlLabel": "Typical Attributes Of Good Automated Test Cases"
+            },
+            {
+              "description":"",
+              "url": "https://automationpanda.com/2020/07/09/12-traits-of-highly-effective-tests/",
+              "urlLabel": "Traits of highly effective tests"
+            }
+          ]
         }
       ]
     },
@@ -44,27 +73,43 @@
       "Git basics": [
         {
           "name": "what is Github/git?",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         },
         {
           "name": "Git branching",
-          "description": "Learn Git branching is the most visual and interactive way to learn Git on the web",
-          "url": "https://learngitbranching.js.org/",
-          "urlLabel": "Git branching"
+          "data": [
+            {
+              "description": "Learn Git branching is the most visual and interactive way to learn Git on the web",
+              "url": "https://learngitbranching.js.org/",
+              "urlLabel": "Git branching"
+            }
+          ]
         },
         {
           "name": "commit/pull request",
-          "description": "description something Lorem ipsum",
-          "url": "http://google2.com",
-          "urlLabel": "some urlLabel2"
+          "data": [
+            {
+              "description": "description something Lorem ipsum",
+              "url": "http://google2.com",
+              "urlLabel": "some urlLabel2"
+            }
+          ]
         },
         {
           "name": "usage of GUI clients",
-          "description": "description3 something Lorem ipsum description3 something Lorem ipsum Some really long description. Check if we can here also, new line is impossible",
-          "url": "http://google3.com",
-          "urlLabel": "some urlLabel3"
+          "data": [
+            {
+              "description": "description3 something Lorem ipsum description3 something Lorem ipsum Some really long description. Check if we can here also, new line is impossible",
+              "url": "http://google3.com",
+              "urlLabel": "some urlLabel3"
+            }
+          ]
         }
       ]
     },
@@ -72,9 +117,13 @@
       "Tool selection": [
         {
           "name": "Postman Beginner's Course - API Testing",
-          "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
-          "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
-          "urlLabel": "postman"
+          "data": [
+            {
+              "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
+              "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
+              "urlLabel": "postman"
+            }
+          ]
         }
       ]
     },
@@ -82,9 +131,13 @@
       "Html & css": [
         {
           "name": "Web elements",
-          "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
-          "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
-          "urlLabel": "Web elements" 
+          "data": [
+            {
+              "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
+              "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
+              "urlLabel": "Web elements"
+            }
+          ]
         }
       ]
     },
@@ -92,9 +145,13 @@
       "Terminal": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "## description1 \n * list1 \n * list2 \n",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     },
@@ -102,15 +159,23 @@
       "IDE & plugins": [
         {
           "name": "VS code",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         },
         {
           "name": "Intelliji",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     }
@@ -120,27 +185,43 @@
       "Automation patterns": [
         {
           "name": "Top Design Patterns",
-          "description": "Design Patterns",
-          "url": "https://www.devbridge.com/articles/top-design-pattern-test-automation-frameworks/",
-          "urlLabel": "Design Patterns"
+          "data": [
+            {
+              "description": "Design Patterns",
+              "url": "https://www.devbridge.com/articles/top-design-pattern-test-automation-frameworks/",
+              "urlLabel": "Design Patterns"
+            }
+          ]
         },
         {
           "name": "Page Object Models (POM)",
-          "description": "Page Object Models",
-          "url": "https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b",
-          "urlLabel": "Page Object Models"
+          "data": [
+            {
+              "description": "Page Object Models",
+              "url": "https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b",
+              "urlLabel": "Page Object Models"
+            }
+          ]
         },
         {
           "name": "App Actions",
-          "description": "App Actions",
-          "url": "https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
-          "urlLabel": "App Actions, Cypress"
+          "data": [
+            {
+              "description": "App Actions",
+              "url": "https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
+              "urlLabel": "App Actions, Cypress"
+            }
+          ]
         },
         {
           "name": "Screenplay Pattern",
-          "description": "Screenplay Pattern",
-          "url": "https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay/",
-          "urlLabel": "Screenplay Pattern"
+          "data": [
+            {
+              "description": "Screenplay Pattern",
+              "url": "https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay/",
+              "urlLabel": "Screenplay Pattern"
+            }
+          ]
         }
       ]
     },
@@ -148,33 +229,53 @@
       "Javascript & Cypress": [
         {
           "name": "Javascript",
-          "description": "Javascript",
-          "url": "https://testingjavascript.com/",
-          "urlLabel": "Javascript"
+          "data": [
+            {
+              "description": "Javascript",
+              "url": "https://testingjavascript.com/",
+              "urlLabel": "Javascript"
+            }
+          ]
         },
         {
           "name": "Cypress Tutorial",
-          "description": "UDEMY Cypress Tutorial",
-          "url": "https://www.udemy.com/course/cypress-io-master-class/",
-          "urlLabel": "Cypress"
+          "data": [
+            {
+              "description": "UDEMY Cypress Tutorial",
+              "url": "https://www.udemy.com/course/cypress-io-master-class/",
+              "urlLabel": "Cypress"
+            }
+          ]
         },
         {
           "name": "Cypress Test Automation University Beginner",
-          "description": "TAU Cypress Beginner Tutorial",
-          "url": "https://testautomationu.applitools.com/cypress-tutorial/",
-          "urlLabel": "Cypress"
+          "data": [
+            {
+              "description": "TAU Cypress Beginner Tutorial",
+              "url": "https://testautomationu.applitools.com/cypress-tutorial/",
+              "urlLabel": "Cypress"
+            }
+          ]
         },
         {
           "name": "Cypress Test Automation University Advanced",
-          "description": "TAU Cypress Advanced Tutorial",
-          "url": "https://testautomationu.applitools.com/advanced-cypress-tutorial/",
-          "urlLabel": "Cypress"
+          "data": [
+            {
+              "description": "TAU Cypress Advanced Tutorial",
+              "url": "https://testautomationu.applitools.com/advanced-cypress-tutorial/",
+              "urlLabel": "Cypress"
+            }
+          ]
         },
         {
           "name": "Cypress Tips & Tricks",
-          "description": "Cypress Tips & Tricks",
-          "url": "https://cypress.tips/",
-          "urlLabel": "Cypress"
+          "data": [
+            {
+              "description": "Cypress Tips & Tricks",
+              "url": "https://cypress.tips/",
+              "urlLabel": "Cypress"
+            }
+          ]
         }
       ]
     },
@@ -182,9 +283,33 @@
       "Java & Selenium": [
         {
           "name": "Java programming",
-          "description": "The material covered here is equivalent to the curriculum of a full semester of Java programming at a university and is designed for complete beginners to programming.",
-          "url": "https://testautomationu.applitools.com/java-programming-course/",
-          "urlLabel": "Java programming"
+          "data": [
+            {
+              "description": "The material covered here is equivalent to the curriculum of a full semester of Java programming at a university and is designed for complete beginners to programming.",
+              "url": "https://testautomationu.applitools.com/java-programming-course/",
+              "urlLabel": "Java programming"
+            }
+          ]
+        },
+        {
+          "name": "Java programming - Polish self-learning",
+          "data": [
+            {
+              "description": "On this page you will find a set of links to articles that will help you learn Java from scratch. I have divided the articles into sections. Each of them has articles to help you learn more about Java programming. Course is a little-bit non-linear, but I believe everyone'll found something for himself in there",
+              "url": "https://www.samouczekprogramisty.pl/kurs-programowania-java/",
+              "urlLabel": "Samouczek Programisty"
+            }
+          ]
+        },
+        {
+          "name": "Selenium WebDriver with Java -Basics to Advanced + Frameworks",
+          "data": [
+            {
+              "description": "By the end of this course,You will be Mastered on Selenium Webdriver with strong Core JAVA basics",
+              "url": "https://www.udemy.com/course/selenium-real-time-examplesinterview-questions/",
+              "urlLabel": "Selenium Java with Rahul Shetty"
+            }
+          ]
         }
       ]
     },
@@ -192,9 +317,13 @@
       "CI Integration": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     },
@@ -202,31 +331,47 @@
       "BDD": [
         {
           "name": "Gherkin",
-          "description": "Gherkin example",
-          "url": "https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/",
-          "urlLabel": "Gherkin"
+          "data": [
+            {
+              "description": "Gherkin example",
+              "url": "https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/",
+              "urlLabel": "Gherkin"
+            }
+          ]
         },
         {
           "name": "Writing good Gherkin",
-          "description": "Gherkin example",
-          "url": "https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/",
-          "urlLabel": "Gherkin"
+          "data": [
+            {
+              "description": "Gherkin example",
+              "url": "https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/",
+              "urlLabel": "Gherkin"
+            }
+          ]
         },
         {
           "name": "BDD Tutorial",
-          "description": "BDD Tutorial",
-          "url": "https://automationpanda.com/2017/01/25/bdd-101-introducing-bdd/",
-          "urlLabel": "BDD"
+          "data": [
+            {
+              "description": "BDD Tutorial",
+              "url": "https://automationpanda.com/2017/01/25/bdd-101-introducing-bdd/",
+              "urlLabel": "BDD"
+            }
+          ]
         }
       ]
     },
     {
       "Mobile automation": [
         {
-          "name": "Appium",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "name": "Appium with Rahul Shetty",
+          "data": [
+            {
+              "description": "By the end of this course you will be able to automate any (Native,Hybrid,Web) Apps in Android/IOS using Appium",
+              "url": "https://www.udemy.com/course/mobile-automation-using-appiumselenium-3/",
+              "urlLabel": "Appium"
+            }
+          ]
         }
       ]
     },
@@ -234,31 +379,45 @@
       "API automation": [
         {
           "name": "Postman",
-          "description": "Postman Learning Center",
-          "url": "https://learning.postman.com/docs/getting-started/introduction/",
-          "urlLabel": "Postman"
+          "data": [
+            {
+              "description": "Postman Learning Center",
+              "url": "https://learning.postman.com/docs/getting-started/introduction/",
+              "urlLabel": "Postman"
+            }
+          ]
         },
         {
           "name": "Python Requests",
-          "description": "Basic Python Requests documentation",
-          "url": "https://docs.python-requests.org/en/latest/",
-          "urlLabel": "Requests"
+          "data": [
+            {
+              "description": "Basic Python Requests documentation",
+              "url": "https://docs.python-requests.org/en/latest/",
+              "urlLabel": "Requests"
+            }
+          ]
         },
         {
           "name": "Python Requests Tutorial",
-          "description": "Basic Python Requests tutorial",
-          "url": "https://realpython.com/python-requests/",
-          "urlLabel": "Requests"
+          "data": [
+            {
+              "description": "Basic Python Requests tutorial",
+              "url": "https://realpython.com/python-requests/",
+              "urlLabel": "Requests"
+            }
+          ]
         },
         {
           "name": "REST Assured Tutorial",
-          "description": "REST Assured Tutorial",
-          "url": "https://www.baeldung.com/rest-assured-tutorial",
-          "urlLabel": "REST Assured"
+          "data": [
+            {
+              "description": "REST Assured Tutorial",
+              "url": "https://www.baeldung.com/rest-assured-tutorial",
+              "urlLabel": "REST Assured"
+            }
+          ]
         }
-
       ]
-  
     }
   ],
   "expert": [
@@ -266,9 +425,13 @@
       "Cloud-Based Cross Browser Testing": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     },
@@ -276,9 +439,23 @@
       "Parallel testing": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "* Test podpunktów i test **bold** fonta \n * *pochyły* font tez jest okej",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            },
+            {
+              "description": "second block",
+              "url": "http://google.com",
+              "urlLabel": "some Shit here"
+            },
+            {
+              "description": "third block",
+              "url": "http://google.com",
+              "urlLabel": "some Shit here"
+            }
+          ]
         }
       ]
     },
@@ -286,9 +463,13 @@
       "Cypress - advanced": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     },
@@ -296,9 +477,13 @@
       "Selenium - advanced": [
         {
           "name": "placeholder",
-          "description": "description 1",
-          "url": "http://google.com",
-          "urlLabel": "some urlLabel"
+          "data": [
+            {
+              "description": "description 1",
+              "url": "http://google.com",
+              "urlLabel": "some urlLabel"
+            }
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@ import { Segment, Divider, Header, Icon } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import roadmapData from "../../data/roadmapData.json";
 import SingleTree from "../SingleTree";
-console.log(roadmapData.beginner);
+
 const App = () => {
   return (
     <Segment>
@@ -13,15 +13,11 @@ const App = () => {
       </Header>
 
       <Divider horizontal>Beginner</Divider>
-      <SingleTree name="Beginner" data={roadmapData.beginner} color="teal" />
+      <SingleTree data={roadmapData.beginner} color="teal" />
       <Divider horizontal>Intermediate</Divider>
-      <SingleTree
-        name="Intermediate"
-        data={roadmapData.intermediate}
-        color="blue"
-      />
+      <SingleTree data={roadmapData.intermediate} color="blue" />
       <Divider horizontal>Expert</Divider>
-      <SingleTree name="Expert" data={roadmapData.expert} color="violet" />
+      <SingleTree data={roadmapData.expert} color="violet" />
     </Segment>
   );
 };
