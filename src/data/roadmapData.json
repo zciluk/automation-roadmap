@@ -144,12 +144,22 @@
     {
       "Terminal": [
         {
-          "name": "placeholder",
+          "name": "Basic terminal commands",
           "data": [
             {
-              "description": "## description1 \n * list1 \n * list2 \n",
-              "url": "http://google.com",
-              "urlLabel": "some urlLabel"
+              "description": "Here's list of basic terminal commands used in everyday work",
+              "url": "https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/",
+              "urlLabel": "Terminal tech republic"
+            },
+            {
+              "description": "Terminal Netguru at wiki",
+              "url": "https://netguru.atlassian.net/wiki/spaces/QA/pages/270533008/Terminal",
+              "urlLabel": "Terminal Netguru"
+            },
+            {
+              "description": "Variables",
+              "url": "https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/",
+              "urlLabel": "Variables in bash"
             }
           ]
         }
