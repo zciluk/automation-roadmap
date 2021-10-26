@@ -25,33 +25,41 @@
     {
       "Git basics": [
         {
-          "name": "what is git?",
-          "description1": "Official Git book source",
-          "url1": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
-          "url1Label": "What is git - gitbook",
-          "url1.1": "https://git-scm.com/",
-          "url1.1Label": "What is git official git page",
-          "description2": "How to download and install git?",
-          "url2": "https://git-scm.com/download/mac",
-          "url2Label": "Official git page downloader",
-          "url2.1": "https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer",
-          "url2.1Label": "Atlassian git download and install tutorial",
-          "description3": "Git basics with official git book",
-          "url3": "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository",
-          "url3Label": "Official git basics",
-          "description3.1": "Git basics with atlassian",
-          "url3.1": "https://www.atlassian.com/git",
-          "url3.1Label": "Atlassian git basics",
-          "description4": "Git branching",
-          "url4": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
-          "url4Label": "Official git branching materials",
-          "description5": "Most friendly tutorials for begginers",
-          "url5": "https://www.udemy.com/course/git-expert-4-hours/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282064_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20861_._pd__._&matchtype=b&gclid=CjwKCAjwtfqKBhBoEiwAZuesiALADywoFSvBlQtfDvUsL_DXv2k-F-8RAAjEMXjM1IZaA9mFD8M2vRoCgHcQAvD_BwE",
-        },
-        {
           "name": "what is Github?",
-          "description": "description 1",
-          "url": "https://www.udemy.com/course/git-expert-4-hours/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282064_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20861_._pd__._&matchtype=b&gclid=CjwKCAjwtfqKBhBoEiwAZuesiALADywoFSvBlQtfDvUsL_DXv2k-F-8RAAjEMXjM1IZaA9mFD8M2vRoCgHcQAvD_BwE"
+          "data": [
+            {
+              "description": "Official Git book source",
+              "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+              "urlLabel": "What is git - gitbook"
+            },
+            {
+              "url": "https://git-scm.com/",
+              "urlLabel": "What is git official git page"
+            },
+            {
+              "description": "How to download and install git?",
+              "url": "https://git-scm.com/download/mac",
+              "urlLabel": "Official git page downloader"
+            },
+            {
+              "url": "https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer",
+              "urlLabel": "Atlassian git download and install tutorial"
+            },
+            {
+              "description": "Git basics with official git book",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository",
+              "urlLabel": "Official git basics"
+            },
+            {
+              "description": "Git branching",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell",
+              "urlLabel": "Official git branching materials"
+            },
+            {
+              "url": "https://www.udemy.com/course/git-expert-4-hours/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282064_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20861_._pd__._&matchtype=b&gclid=CjwKCAjwtfqKBhBoEiwAZuesiALADywoFSvBlQtfDvUsL_DXv2k-F-8RAAjEMXjM1IZaA9mFD8M2vRoCgHcQAvD_BwE",
+              "urlLabel": "Most friendly tutorials for begginers"
+            }
+          ]
         },
         {
           "name": "commit/pull request",
