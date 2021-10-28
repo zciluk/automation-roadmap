@@ -152,9 +152,9 @@
               "urlLabel": "Terminal tech republic"
             },
             {
-              "description": "Terminal Netguru at wiki",
+              "description": "Netguru wiki - terminal instructions. Here you can find useful commands gathered from Netgurals",
               "url": "https://netguru.atlassian.net/wiki/spaces/QA/pages/270533008/Terminal",
-              "urlLabel": "Terminal Netguru"
+              "urlLabel": "Netguru page for using terminal"
             },
             {
               "description": "Variables",
