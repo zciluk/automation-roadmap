@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/automation-roadmap/app/static/js/main.5e92ca28.chunk.js",
-    "main.js.map": "/automation-roadmap/app/static/js/main.5e92ca28.chunk.js.map",
+    "main.js": "/automation-roadmap/app/static/js/main.73afe836.chunk.js",
+    "main.js.map": "/automation-roadmap/app/static/js/main.73afe836.chunk.js.map",
     "runtime-main.js": "/automation-roadmap/app/static/js/runtime-main.d90afa47.js",
     "runtime-main.js.map": "/automation-roadmap/app/static/js/runtime-main.d90afa47.js.map",
     "static/css/2.2c44bfba.chunk.css": "/automation-roadmap/app/static/css/2.2c44bfba.chunk.css",
-    "static/js/2.403c9e90.chunk.js": "/automation-roadmap/app/static/js/2.403c9e90.chunk.js",
-    "static/js/2.403c9e90.chunk.js.map": "/automation-roadmap/app/static/js/2.403c9e90.chunk.js.map",
+    "static/js/2.da5a817b.chunk.js": "/automation-roadmap/app/static/js/2.da5a817b.chunk.js",
+    "static/js/2.da5a817b.chunk.js.map": "/automation-roadmap/app/static/js/2.da5a817b.chunk.js.map",
     "index.html": "/automation-roadmap/app/index.html",
     "static/css/2.2c44bfba.chunk.css.map": "/automation-roadmap/app/static/css/2.2c44bfba.chunk.css.map",
-    "static/js/2.403c9e90.chunk.js.LICENSE.txt": "/automation-roadmap/app/static/js/2.403c9e90.chunk.js.LICENSE.txt",
+    "static/js/2.da5a817b.chunk.js.LICENSE.txt": "/automation-roadmap/app/static/js/2.da5a817b.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/automation-roadmap/app/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.d90afa47.js",
     "static/css/2.2c44bfba.chunk.css",
-    "static/js/2.403c9e90.chunk.js",
-    "static/js/main.5e92ca28.chunk.js"
+    "static/js/2.da5a817b.chunk.js",
+    "static/js/main.73afe836.chunk.js"
   ]
 }
