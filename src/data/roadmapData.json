@@ -374,6 +374,52 @@
       ]
     },
     {
+      "Python & Selenium": [
+          
+        {
+          "name": "Python programming - introduction",
+          "data": [
+            {
+              "description": "A very good free course on Coursera from Wesleyan University. At the end of each module there is an exercise where the student is required to write simple programs and submit them for grading. Covers only fundamentals.",
+              "url": "https://www.coursera.org/learn/python-programming-introduction",
+              "urlLabel": "Python programming"
+            }
+          ]
+        },
+      {
+        "name": "Python programming",
+        "data": [
+          {
+            "description": "Python programming bootcamp from zero to hero on Udemy",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+            "urlLabel": "Python programming"
+          }
+        ]
+      },
+      {
+        "name": "Python & Selenium (for beginners)",
+        "data": [
+          {
+            "description": "This Udemy course focuses on creating tests using Selenium (polish).",
+            "url": "https://www.udemy.com/course/kurs-selenium-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=INTL-AW-PROS-TECH-Poland-DSA-WebIndex&utm_term=_._ag_100563868518_._ad_427601021502_._de_c_._dm__._pl__._ti_dsa-93451758763_._li_9067437_._pd__._&gclid=Cj0KCQjwtrSLBhCLARIsACh6Rmg7AvKZbMx7kTTOIKTV2eXY2xuaL5zVXJVK9RpLuVQ9kDSUAW_NgyYaAvcMEALw_wcB",
+            "urlLabel": "Python&Selenium"
+          }
+        ]
+      },
+      {
+        "name": "Python & Selenium (for begginners)",
+        "data": [
+          {
+            "description": "Online course with teachers. Focuses on simple and more advanced techniques of writing automated tests using Selenium. Includes short introduction to python, lots of practice (polish)",
+            "url": "https://fabrykatestow.pl/taps/",
+            "urlLabel": "Python&Selenium"
+          }
+        ]
+      }
+  
+    ]
+    },
+    {
       "CI Integration": [
         {
           "name": "placeholder",
