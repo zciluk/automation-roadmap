@@ -114,48 +114,6 @@
       ]
     },
     {
-      "Tool selection": [
-        {
-          "name": "Postman Beginner's Course - API Testing",
-          "data": [
-            {
-              "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
-              "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
-              "urlLabel": "postman"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Html & css": [
-        {
-          "name": "Web elements",
-          "data": [
-            {
-              "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
-              "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
-              "urlLabel": "Web elements"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Terminal": [
-        {
-          "name": "placeholder",
-          "data": [
-            {
-              "description": "## description1 \n * list1 \n * list2 \n",
-              "url": "http://google.com",
-              "urlLabel": "some urlLabel"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "IDE, Code Editors & plugins": [
         {
           "name": "Visual Studio Code",
@@ -224,6 +182,58 @@
               "description": "Eclipse primary use is for developing Java applications, but it may also be used to develop applications in other programming languages",
               "url": "https://eclipse.org/downloads/",
               "urlLabel": "Eclipse main page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Tool selection": [
+        {
+          "name": "Postman Beginner's Course - API Testing",
+          "data": [
+            {
+              "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
+              "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
+              "urlLabel": "postman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Html & css": [
+        {
+          "name": "Web elements",
+          "data": [
+            {
+              "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
+              "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
+              "urlLabel": "Web elements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Terminal": [
+        {
+          "name": "Basic terminal commands",
+          "data": [
+            {
+              "description": "Here's list of basic terminal commands used in everyday work",
+              "url": "https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/",
+              "urlLabel": "Terminal tech republic"
+            },
+            {
+              "description": "Netguru wiki - terminal instructions. Here you can find useful commands gathered from Netgurals",
+              "url": "https://netguru.atlassian.net/wiki/spaces/QA/pages/270533008/Terminal",
+              "urlLabel": "Netguru page for using terminal"
+            },
+            {
+              "description": "Variables",
+              "url": "https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/",
+              "urlLabel": "How to set enviromental and shell variables in bash in an easy way"
             }
           ]
         }
@@ -364,52 +374,6 @@
       ]
     },
     {
-      "Python & Selenium": [
-          
-        {
-          "name": "Python programming - introduction",
-          "data": [
-            {
-              "description": "A very good free course on Coursera from Wesleyan University. At the end of each module there is an exercise where the student is required to write simple programs and submit them for grading. Covers only fundamentals.",
-              "url": "https://www.coursera.org/learn/python-programming-introduction",
-              "urlLabel": "Python programming"
-            }
-          ]
-        },
-      {
-        "name": "Python programming",
-        "data": [
-          {
-            "description": "Python programming bootcamp from zero to hero on Udemy",
-            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
-            "urlLabel": "Python programming"
-          }
-        ]
-      },
-      {
-        "name": "Python & Selenium (for beginners)",
-        "data": [
-          {
-            "description": "This Udemy course focuses on creating tests using Selenium (polish).",
-            "url": "https://www.udemy.com/course/kurs-selenium-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=INTL-AW-PROS-TECH-Poland-DSA-WebIndex&utm_term=_._ag_100563868518_._ad_427601021502_._de_c_._dm__._pl__._ti_dsa-93451758763_._li_9067437_._pd__._&gclid=Cj0KCQjwtrSLBhCLARIsACh6Rmg7AvKZbMx7kTTOIKTV2eXY2xuaL5zVXJVK9RpLuVQ9kDSUAW_NgyYaAvcMEALw_wcB",
-            "urlLabel": "Python&Selenium"
-          }
-        ]
-      },
-      {
-        "name": "Python & Selenium (for begginners)",
-        "data": [
-          {
-            "description": "Online course with teachers. Focuses on simple and more advanced techniques of writing automated tests using Selenium. Includes short introduction to python, lots of practice (polish)",
-            "url": "https://fabrykatestow.pl/taps/",
-            "urlLabel": "Python&Selenium"
-          }
-        ]
-      }
-  
-    ]
-    },
-    {
       "CI Integration": [
         {
           "name": "placeholder",
@@ -426,12 +390,12 @@
     {
       "BDD": [
         {
-          "name": "Gherkin",
+          "name": "What is BDD and why to use it?",
           "data": [
             {
-              "description": "Gherkin example",
-              "url": "https://automationpanda.com/2017/01/27/bdd-101-gherkin-by-example/",
-              "urlLabel": "Gherkin"
+              "description": "The beginner's guide to BDD (behaviour-driven development) - term explanation, key benefits and more",
+              "url": "https://inviqa.com/blog/bdd-guide",
+              "urlLabel": "BDD Guide"
             }
           ]
         },
@@ -439,19 +403,19 @@
           "name": "Writing good Gherkin",
           "data": [
             {
-              "description": "Gherkin example",
+              "description": "Good Gherkin feature files are not easy to write at first. Writing is definitely an art. With some basic pointers, and a bit of practice, Gherkin becomes easier. This post will cover how to write top-notch feature files.",
               "url": "https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/",
-              "urlLabel": "Gherkin"
+              "urlLabel": "Writing good Gherkin"
             }
           ]
         },
         {
-          "name": "BDD Tutorial",
+          "name": "Gauge - another way to write business specs",
           "data": [
             {
-              "description": "BDD Tutorial",
-              "url": "https://automationpanda.com/2017/01/25/bdd-101-introducing-bdd/",
-              "urlLabel": "BDD"
+              "description": "Gauge is multilanguage framework that allows us to write easy-readable test specs. It has many features (like tags, concepts, data tables) that can speed up documentation process. It also has a nice documentation on their website, provided below. ",
+              "url": "https://docs.gauge.org/writing-specifications.html?os=macos&language=javascript&ide=vscode",
+              "urlLabel": "Gauge documentation with examples"
             }
           ]
         }
