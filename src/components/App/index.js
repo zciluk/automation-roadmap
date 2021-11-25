@@ -17,7 +17,9 @@ const App = () => {
       <Divider horizontal>Intermediate</Divider>
       <SingleTree data={roadmapData.intermediate} color="blue" />
       <Divider horizontal>Expert</Divider>
-      <SingleTree data={roadmapData.expert} color="violet" />
+      <Segment size="large" color="purple" inverted>
+        Not available yet, work in progress 👷
+      </Segment>
     </Segment>
   );
 };
