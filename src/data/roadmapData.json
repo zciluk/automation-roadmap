@@ -132,22 +132,32 @@
           ]
         },
         {
-          "name": "commit/pull request",
+          "name": "Commit/pull request",
           "data": [
             {
-              "description": "description something Lorem ipsum",
-              "url": "http://google2.com",
-              "urlLabel": "some urlLabel2"
+              "description": "Commit - learn what is commit with atlassian",
+              "url": "https://www.atlassian.com/git/tutorials/saving-changes/git-commit",
+              "urlLabel": "Commit - atlassian"
+            },
+            {
+              "description": "Pull request - learn what is pull request with atlassian",
+              "url": "https://www.atlassian.com/git/tutorials/making-a-pull-request",
+              "urlLabel": "Pull request - atlassian"
             }
           ]
         },
         {
-          "name": "usage of GUI clients",
+          "name": "Git GUI clients",
           "data": [
             {
-              "description": "description3 something Lorem ipsum description3 something Lorem ipsum Some really long description. Check if we can here also, new line is impossible",
-              "url": "http://google3.com",
-              "urlLabel": "some urlLabel3"
+              "description": "What is Git GUI client? dev.to GUI clients ranking",
+              "url": "https://dev.to/theme_selection/best-git-gui-clients-for-developers-5023",
+              "urlLabel": "Git GUI clients - dev.to"
+            },
+            {
+              "description": "Git GUI clients for Mac. Fossmint ranking.",
+              "url": "https://www.fossmint.com/gui-git-clients-for-mac/",
+              "urlLabel": "Git GUI clients ranking - fossmint"
             }
           ]
         }
