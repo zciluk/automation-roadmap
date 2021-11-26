@@ -33,8 +33,9 @@
               "urlLabel": "What is git - gitbook"
             },
             {
+              "description": "Official Git page",
               "url": "https://git-scm.com/",
-              "urlLabel": "What is git official git page"
+              "urlLabel": "What is git - official git page"
             },
             {
               "description": "How to download and install git?",
@@ -42,11 +43,12 @@
               "urlLabel": "Official git page downloader"
             },
             {
+              "description": "Atlassian git download and install tutorial",
               "url": "https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer",
-              "urlLabel": "Atlassian git download and install tutorial"
+              "urlLabel": "Atlassian tutorial"
             },
             {
-              "description": "Git basics with official git book",
+              "description": "Git basics with official GitBook",
               "url": "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository",
               "urlLabel": "Official git basics"
             },
@@ -56,8 +58,9 @@
               "urlLabel": "Official git branching materials"
             },
             {
+              "description": "Friendly GIT tutorial for begginers",
               "url": "https://www.udemy.com/course/git-expert-4-hours/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282064_._kw__._de_c_._dm__._pl__._ti_dsa-406594358574_._li_20861_._pd__._&matchtype=b&gclid=CjwKCAjwtfqKBhBoEiwAZuesiALADywoFSvBlQtfDvUsL_DXv2k-F-8RAAjEMXjM1IZaA9mFD8M2vRoCgHcQAvD_BwE",
-              "urlLabel": "Most friendly tutorials for begginers"
+              "urlLabel": "Friendly tutorial created by Jad Khalili"
             }
           ]
         },
