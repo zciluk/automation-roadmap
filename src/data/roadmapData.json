@@ -238,6 +238,70 @@
           ]
         }
       ]
+    },
+    {
+      "Programming": [
+        {
+          "name": "Javascript",
+          "data": [
+            {
+              "description": "JavaScript is the world's most popular programming language. It started out as purely browser scripting language, after the release of NodeJS which allowed for JS execution outside the browser the language blew up. Today, you can use JavaScript to write all kinds of applications, including browser, server, mobile, and desktop applications.",
+              "url": "https://launchschool.com/books/javascript/read/introduction#briefhistory",
+              "urlLabel": "A brief Javascript history"
+            },
+            {
+              "description": "In this video course you will go through all the Javascript fundamentals.",
+              "url": "https://www.youtube.com/watch?v=2Ji-clqUYnA",
+              "urlLabel": "Javascript fundamentals video"
+            },
+            {
+              "description": "This video playlist consists of short videos explaining different Javascript topics that can be very helpful in daily work.",
+              "url": "https://www.youtube.com/watch?v=80KX6aD9R7M&list=PLnHJACx3NwAfRUcuKaYhZ6T5NRIpzgNGJ",
+              "urlLabel": "Javascript nuggets playlist"
+            }
+          ]
+        },
+        {
+          "name": "Java",
+          "data": [
+            {
+              "description": "Java is one of the most popular programming languages used by software developers all over the world. Java was developed in the early 1990s as an object-oriented programming language. Over the years, the language has been the foundation of millions of applications across many platforms such as Windows, Macintosh, UNIX, Android-based handheld devices, Embedded Systems, and corporate solutions.",
+              "url": "https://www.jigsawacademy.com/blogs/java/history-of-java/",
+              "urlLabel": "History of Java"
+            },
+            {
+              "description": "The material covered here is equivalent to the curriculum of a full semester of Java programming at a university and is designed for complete beginners to programming.",
+              "url": "https://testautomationu.applitools.com/java-programming-course/",
+              "urlLabel": "Java programming"
+            },
+            {
+              "description": "On this page you will find a set of links to articles that will help you learn Java from scratch. I have divided the articles into sections. Each of them has articles to help you learn more about Java programming. Course is a little-bit non-linear, but I believe everyone'll found something for himself in there",
+              "url": "https://www.samouczekprogramisty.pl/kurs-programowania-java/",
+              "urlLabel": "Samouczek Programisty"
+            }
+          ]
+        },
+        {
+          "name": "Python",
+          "data": [
+            {
+              "description": "Python is a widely used general-purpose, high-level programming language. It was initially designed in 1991 and developed by Python Software Foundation. It was mainly developed for emphasis on code readability, and its syntax allows programmers to express concepts in fewer lines of code.",
+              "url": "https://www.geeksforgeeks.org/history-of-python/",
+              "urlLabel": "History of Python"
+            },
+            {
+              "description": "A very good free course on Coursera from Wesleyan University. At the end of each module there is an exercise where the student is required to write simple programs and submit them for grading. Covers only fundamentals.",
+              "url": "https://www.coursera.org/learn/python-programming-introduction",
+              "urlLabel": "Coursera Python Introduction"
+            },
+            {
+              "description": "Python programming bootcamp from zero to hero on Udemy",
+              "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+              "urlLabel": "Complete Python bootcamp Udemy course"
+            }
+          ]
+        }
+      ]
     }
   ],
   "intermediate": [
@@ -288,32 +352,22 @@
     {
       "Javascript & Cypress": [
         {
-          "name": "Javascript",
+          "name": "Introduction to Cypress",
           "data": [
             {
-              "description": "Javascript",
-              "url": "https://testingjavascript.com/",
-              "urlLabel": "Javascript"
-            }
-          ]
-        },
-        {
-          "name": "Cypress Tutorial",
-          "data": [
-            {
-              "description": "UDEMY Cypress Tutorial",
-              "url": "https://www.udemy.com/course/cypress-io-master-class/",
-              "urlLabel": "Cypress"
-            }
-          ]
-        },
-        {
-          "name": "Cypress Test Automation University Beginner",
-          "data": [
-            {
-              "description": "TAU Cypress Beginner Tutorial",
+              "description": "This course will take through the very basics of Cypress framework, it will explain the history of it, why it is getting so much attention and how to use it.",
               "url": "https://testautomationu.applitools.com/cypress-tutorial/",
-              "urlLabel": "Cypress"
+              "urlLabel": "Introduction to Cypress course"
+            }
+          ]
+        },
+        {
+          "name": "Cypress Master Class",
+          "data": [
+            {
+              "description": "This course goes through all important topics regarding Cypress, it starts from basic concepts all up to more advanced ones.",
+              "url": "https://www.udemy.com/course/cypress-io-master-class/",
+              "urlLabel": "Cypress Master Class Udemy page"
             }
           ]
         },
@@ -321,19 +375,29 @@
           "name": "Cypress Test Automation University Advanced",
           "data": [
             {
-              "description": "TAU Cypress Advanced Tutorial",
+              "description": "This course will take you through more advanced features of Cypress as well as some tips and tricks.",
               "url": "https://testautomationu.applitools.com/advanced-cypress-tutorial/",
-              "urlLabel": "Cypress"
+              "urlLabel": "TAU Cypress Advanced Tutorial Website"
             }
           ]
         },
         {
-          "name": "Cypress Tips & Tricks",
+          "name": "Cypress Tips",
           "data": [
             {
-              "description": "Cypress Tips & Tricks",
+              "description": "A useful website created by Gleb Bahmutov that aggregates resources regarding Cypress.",
               "url": "https://cypress.tips/",
-              "urlLabel": "Cypress"
+              "urlLabel": "Cypress Tips Website"
+            }
+          ]
+        },
+        {
+          "name": "Testing Javascript",
+          "data": [
+            {
+              "description": "Testing Javascript by Kent C. Dodds is a course that goes through all the levels of testing Javascript - it starts from static and goes all the way up to e2e testing",
+              "url": "https://testingjavascript.com/",
+              "urlLabel": "Testing Javascript website"
             }
           ]
         }
@@ -341,26 +405,6 @@
     },
     {
       "Java & Selenium": [
-        {
-          "name": "Java programming",
-          "data": [
-            {
-              "description": "The material covered here is equivalent to the curriculum of a full semester of Java programming at a university and is designed for complete beginners to programming.",
-              "url": "https://testautomationu.applitools.com/java-programming-course/",
-              "urlLabel": "Java programming"
-            }
-          ]
-        },
-        {
-          "name": "Java programming - Polish self-learning",
-          "data": [
-            {
-              "description": "On this page you will find a set of links to articles that will help you learn Java from scratch. I have divided the articles into sections. Each of them has articles to help you learn more about Java programming. Course is a little-bit non-linear, but I believe everyone'll found something for himself in there",
-              "url": "https://www.samouczekprogramisty.pl/kurs-programowania-java/",
-              "urlLabel": "Samouczek Programisty"
-            }
-          ]
-        },
         {
           "name": "Selenium WebDriver with Java -Basics to Advanced + Frameworks",
           "data": [
@@ -375,27 +419,6 @@
     },
     {
       "Python & Selenium": [
-          
-        {
-          "name": "Python programming - introduction",
-          "data": [
-            {
-              "description": "A very good free course on Coursera from Wesleyan University. At the end of each module there is an exercise where the student is required to write simple programs and submit them for grading. Covers only fundamentals.",
-              "url": "https://www.coursera.org/learn/python-programming-introduction",
-              "urlLabel": "Python programming"
-            }
-          ]
-        },
-      {
-        "name": "Python programming",
-        "data": [
-          {
-            "description": "Python programming bootcamp from zero to hero on Udemy",
-            "url": "https://www.udemy.com/course/complete-python-bootcamp/",
-            "urlLabel": "Python programming"
-          }
-        ]
-      },
       {
         "name": "Python & Selenium (for beginners)",
         "data": [
