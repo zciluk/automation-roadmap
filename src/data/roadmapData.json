@@ -422,12 +422,74 @@
     {
       "CI Integration": [
         {
-          "name": "placeholder",
+          "name": "Basic CI knowledge",
           "data": [
             {
-              "description": "description 1",
-              "url": "http://google.com",
-              "urlLabel": "some urlLabel"
+              "description": "Describes Continues Integration. The artcle contains several links to the useful resources.",
+              "url": "https://www.atlassian.com/continuous-delivery/tutorials/continuous-integration-tutorial",
+              "urlLabel": "Basic knowledge about Continues Integration"
+            },
+            {
+              "description": "Presents types of tests and CI. Describes how to adopt Continues Integration",
+              "url": "https://www.atlassian.com/continuous-delivery/continuous-integration/how-to-get-to-continuous-integration",
+              "urlLabel": "Continuous Integration in 5 steps"
+            },
+            {
+              "description": "How to optimize test cases for Continuous Integration",
+              "url": "https://www.browserstack.com/guide/optimize-tests-for-continuous-integration",
+              "urlLabel": "Continuous Integration and tests"
+            }
+
+          ]
+        },
+        {
+          "name": "Continuous Integration tools",
+          "data": [
+            {
+              "description": "What Are the Best Continuous Integration Tools?",
+              "url": "https://bitbar.com/blog/top-continuous-integration-tools-for-devops/",
+              "urlLabel": "Continuous Integration Tools"
+            }
+          ]
+        },
+        {
+          "name": "Continuous Integration with Jenkins",
+          "data": [
+            {
+              "description": "This article describes how to use the Jenkins continuous integration build server.",
+              "url": "https://www.vogella.com/tutorials/Jenkins/article.html",
+              "urlLabel": "Continuous integration with Jenkins - Tutorial"
+            },
+            {
+              "description": "Continuous Integration with Jenkins",
+              "url": "https://testautomationu.applitools.com/jenkins-tutorial/",
+              "urlLabel": "Test Automation University"
+            }            
+          ]
+        },
+        {
+          "name": "Run Cypress on CI - generic CI, GitHub Actions, CircleCI, Netlify",
+          "data": [
+            {
+              "description": "Learn how to run Cypress on a generic CI, on GitHub Actions, on CircleCI, and on Netlify. You need a free acount.",
+              "url": "https://commited.tech/events/workshop-running-cypress-on-ci-part-1/",
+              "urlLabel": "Gleb Bahmutov - Running Cypress on CI workshop part 1"
+            },
+            {
+              "description": "Learn how to run Cypress on a generic CI, on GitHub Actions, on CircleCI, and on Netlify. You need a free acount.",
+              "url": "https://commited.tech/events/workshop-running-cypress-on-ci-part-2/",
+              "urlLabel": "Gleb Bahmutov - Running Cypress on CI workshop part 2"
+            }
+
+          ]
+        },
+        {
+          "name": "Continuous Integration vs. Continuous Delivery",
+          "data": [
+            {
+              "description": "Understand the diffrence between Continuous integration and continuous delivery",
+              "url": "https://commited.tech/events/workshop-running-cypress-on-ci-part-1/",
+              "urlLabel": "Continuous integration vs. continuous delivery vs. continuous deployment"
             }
           ]
         }
