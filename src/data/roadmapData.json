@@ -425,12 +425,12 @@
           "name": "Basic CI knowledge",
           "data": [
             {
-              "description": "Describes Continues Integration. The artcle contains several links to the useful resources.",
+              "description": "Describes Continuous Integration. The artcle contains several links to the useful resources.",
               "url": "https://www.atlassian.com/continuous-delivery/tutorials/continuous-integration-tutorial",
-              "urlLabel": "Basic knowledge about Continues Integration"
+              "urlLabel": "Basic knowledge about Continuous Integration"
             },
             {
-              "description": "Presents types of tests and CI. Describes how to adopt Continues Integration",
+              "description": "Presents types of tests and CI. Describes how to adopt Continuous Integration",
               "url": "https://www.atlassian.com/continuous-delivery/continuous-integration/how-to-get-to-continuous-integration",
               "urlLabel": "Continuous Integration in 5 steps"
             },
