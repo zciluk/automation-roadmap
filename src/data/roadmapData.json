@@ -93,7 +93,7 @@
               "description": "How to download and install Git?",
               "url": "https://git-scm.com/download/mac",
               "urlLabel": "Official Git page downloader"
-            },         
+            },
             {
               "description": "Atlassian Git download and install tutorial",
               "url": "https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer",
@@ -469,28 +469,27 @@
     },
     {
       "Python & Selenium": [
-      {
-        "name": "Python & Selenium (for beginners)",
-        "data": [
-          {
-            "description": "This Udemy course focuses on creating tests using Selenium (polish).",
-            "url": "https://www.udemy.com/course/kurs-selenium-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=INTL-AW-PROS-TECH-Poland-DSA-WebIndex&utm_term=_._ag_100563868518_._ad_427601021502_._de_c_._dm__._pl__._ti_dsa-93451758763_._li_9067437_._pd__._&gclid=Cj0KCQjwtrSLBhCLARIsACh6Rmg7AvKZbMx7kTTOIKTV2eXY2xuaL5zVXJVK9RpLuVQ9kDSUAW_NgyYaAvcMEALw_wcB",
-            "urlLabel": "Python&Selenium"
-          }
-        ]
-      },
-      {
-        "name": "Python & Selenium (for beginners)",
-        "data": [
-          {
-            "description": "Online course with teachers. Focuses on simple and more advanced techniques of writing automated tests using Selenium. Includes short introduction to python, lots of practice (polish)",
-            "url": "https://fabrykatestow.pl/taps/",
-            "urlLabel": "Python&Selenium"
-          }
-        ]
-      }
-  
-    ]
+        {
+          "name": "Python & Selenium (for beginners)",
+          "data": [
+            {
+              "description": "This Udemy course focuses on creating tests using Selenium (polish).",
+              "url": "https://www.udemy.com/course/kurs-selenium-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=INTL-AW-PROS-TECH-Poland-DSA-WebIndex&utm_term=_._ag_100563868518_._ad_427601021502_._de_c_._dm__._pl__._ti_dsa-93451758763_._li_9067437_._pd__._&gclid=Cj0KCQjwtrSLBhCLARIsACh6Rmg7AvKZbMx7kTTOIKTV2eXY2xuaL5zVXJVK9RpLuVQ9kDSUAW_NgyYaAvcMEALw_wcB",
+              "urlLabel": "Python&Selenium"
+            }
+          ]
+        },
+        {
+          "name": "Python & Selenium (for beginners)",
+          "data": [
+            {
+              "description": "Online course with teachers. Focuses on simple and more advanced techniques of writing automated tests using Selenium. Includes short introduction to python, lots of practice (polish)",
+              "url": "https://fabrykatestow.pl/taps/",
+              "urlLabel": "Python&Selenium"
+            }
+          ]
+        }
+      ]
     },
     {
       "CI Integration": [
@@ -512,7 +511,6 @@
               "url": "https://www.browserstack.com/guide/optimize-tests-for-continuous-integration",
               "urlLabel": "Continuous Integration and tests"
             }
-
           ]
         },
         {
@@ -537,7 +535,7 @@
               "description": "This course covers commonly used CI tools and does a deep dive into installing and configuring Jenkins. It describes how to create, configure, and execute jobs in Jenkins, including automated test execution",
               "url": "https://testautomationu.applitools.com/jenkins-tutorial/",
               "urlLabel": "Test Automation University"
-            }            
+            }
           ]
         },
         {
@@ -553,7 +551,6 @@
               "url": "https://commited.tech/events/workshop-running-cypress-on-ci-part-2/",
               "urlLabel": "Gleb Bahmutov - Running Cypress on CI workshop"
             }
-
           ]
         },
         {
@@ -611,6 +608,81 @@
               "description": "By the end of this course you will be able to automate any (Native,Hybrid,Web) Apps in Android/IOS using Appium",
               "url": "https://www.udemy.com/course/mobile-automation-using-appiumselenium-3/",
               "urlLabel": "Appium"
+            }
+          ]
+        },
+        {
+          "name": "NG Mobile QA Academy - Appium setup",
+          "data": [
+            {
+              "description": "The tutorial explains how to install Appium and how to setup project in Appium. You will need to ask for permission to access this Netguru internal material.",
+              "url": "https://drive.google.com/file/d/1O9MTIFZeTDxJpWsa7j-GAtpO0ROBGcky/view",
+              "urlLabel": "Tutorial movie"
+            },
+            {
+              "description": "",
+              "url": "https://drive.google.com/file/d/1KPwa9PXl5KLQVQsNSHn-2rq3lZ-07vwA/view?usp=drive_web",
+              "urlLabel": "Tutorial presentation"
+            }
+          ]
+        },
+        {
+          "name": "NG Mobile QA Academy - First tests in Appium",
+          "data": [
+            {
+              "description": "The tutorial explains how to write your first tests in Appium. You will need to ask for permission to access this Netguru internal material.",
+              "url": "https://drive.google.com/file/d/1tWmmnu5vh_saqfttr20_EaEHP7BtKrzY/view",
+              "urlLabel": "Tutorial movie"
+            },
+            {
+              "description": "",
+              "url": "https://drive.google.com/file/d/1w9J6VvoV9Y9cCE9oNbfU1j_-SFUhO6AD/view?usp=drive_web",
+              "urlLabel": "Tutorial presentation"
+            }
+          ]
+        },
+        {
+          "name": "NG Mobile QA Academy - Page Object Pattren in Appium",
+          "data": [
+            {
+              "description": "The tutorial explains how to write tests in Appium using Page Object Pattern. You will need to ask for permission to access this Netguru internal material.",
+              "url": "https://drive.google.com/file/d/1aJGlG-IAHbZK0rvxtjWPh2-UggrLnBDz/view",
+              "urlLabel": "Tutorial movie"
+            },
+            {
+              "description": "",
+              "url": "https://drive.google.com/file/d/1ANOfVF5zo58pLB2fxbRznsPJGgNvOfdz/view?usp=drive_web",
+              "urlLabel": "Tutorial presentation"
+            }
+          ]
+        },
+        {
+          "name": "NG Mobile QA Academy - Continuous Intergation in Bitrise",
+          "data": [
+            {
+              "description": "The tutorial explains how to run your Appium tests using Bitrise, the CI tool for mobile projects. You will need to ask for permission to access this Netguru internal material.",
+              "url": "https://drive.google.com/file/d/1sGRHmOZZWzsV9vNqsrwjE-_bZ_ekhLJy/view",
+              "urlLabel": "Tutorial movie"
+            },
+            {
+              "description": "",
+              "url": "https://drive.google.com/file/d/1nk_-4EndJMHvkfTS3ncID4zHh20ZiGgz/view?usp=drive_web",
+              "urlLabel": "Tutorial presentation"
+            }
+          ]
+        },
+        {
+          "name": "NG Mobile QA Academy - Appium alternatives",
+          "data": [
+            {
+              "description": "The tutorial is about the alternatives to Appium. You will need to ask for permission to access this Netguru internal material.",
+              "url": "https://drive.google.com/file/d/1J0MGqkAY41UqJ8JHgpLgcjsX_76qb6Hf/view",
+              "urlLabel": "Tutorial movie"
+            },
+            {
+              "description": "",
+              "url": "https://drive.google.com/file/d/1Kb1zkV9j2RMOhWlfL1mKtY7wMpljr_sv/view?usp=drive_web",
+              "urlLabel": "Tutorial presentation"
             }
           ]
         }
