@@ -238,20 +238,6 @@
       ]
     },
     {
-      "Tool selection": [
-        {
-          "name": "Postman Beginner's Course - API Testing",
-          "data": [
-            {
-              "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
-              "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4”",
-              "urlLabel": "postman"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "Html & css": [
         {
           "name": "Web elements",
@@ -622,45 +608,110 @@
           "name": "Postman",
           "data": [
             {
-              "description": "Postman Learning Center",
+              "description": "Postman Learning Center is the place where you can find official information on how to use Postman in API projects.",
               "url": "https://learning.postman.com/docs/getting-started/introduction/",
-              "urlLabel": "Postman"
+              "urlLabel": "Postman Learning Center"
+            },
+            {
+              "description": "This course will introduce you to Postman and is suited for beginners. You will learn how to build API requests with Postman, how to inspect responses and create workflows",
+              "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+              "urlLabel": "Postman for beginners video"
             }
           ]
         },
         {
-          "name": "Python Requests",
+          "name": "Insomnia",
           "data": [
             {
-              "description": "Basic Python Requests documentation",
+              "description": "This video presents Insomnia REST Client and how you can use it in your Exploratory API Testing",
+              "url": "https://www.youtube.com/watch?v=ErDCN_oU9a8",
+              "urlLabel": "Insomnia REST Client in Exploratory API Testing"
+            },
+            {
+              "description": "This video introduces Insomnia API Client",
+              "url": "https://www.youtube.com/watch?v=x2AlTaFJJxs",
+              "urlLabel": "Insomnia API Client Video Tutorial"
+            },
+            {
+              "description": " This article shows how to set up the Insomnia HTTP client to make requests to the RESTful APIs",
+              "url": "https://apis.support.brightcove.com/general/use-insomnia-api-requests.html",
+              "urlLabel": "Insomnia API Client Tutorial"
+            }
+          ]
+        },
+        {
+          "name": "HTTP library - Python Requests",
+          "data": [
+            {
+              "description": "Python Requests documentation with examples. It contains the user guide that focuses on step-by-step instructions how to use Requests.",
               "url": "https://docs.python-requests.org/en/latest/",
-              "urlLabel": "Requests"
-            }
-          ]
-        },
-        {
-          "name": "Python Requests Tutorial",
-          "data": [
+              "urlLabel": "Requests documentation"
+            },
             {
-              "description": "Basic Python Requests tutorial",
+              "description": "This article present Request library. It shows how to make, customize and configure requests",
               "url": "https://realpython.com/python-requests/",
-              "urlLabel": "Requests"
+              "urlLabel": "Requests guide"
             }
           ]
         },
         {
-          "name": "REST Assured Tutorial",
+          "name": "API Test Frameworks - REST Assured",
           "data": [
             {
-              "description": "REST Assured Tutorial",
+              "description": "This article explores REST-assured and uses Hamcrest to do assertions.",
               "url": "https://www.baeldung.com/rest-assured-tutorial",
-              "urlLabel": "REST Assured"
-            }
+              "urlLabel": "REST Assured Introduction"
+            },
+            {
+              "description": "Udemy course that presents core and advanced features of REST Assured. Author - James Willett.",
+              "url": "https://www.udemy.com/course/rest-assured-fundamentals/",
+              "urlLabel": "REST Assured Udemy Tutorial"
+            },
+            {
+              "description": "Coursera guided project that teaches how to build API test automation framework using Rest Assured.",
+              "url": "https://www.coursera.org/projects/building-api-test-automation-framework-using-rest-assured",
+              "urlLabel": "REST Assured Coursera Guided Project"
+            }           
+          ]
+        },
+        {
+          "name": "API Test Frameworks - Karate",
+          "data": [
+            {
+              "description": "This course presents Karate framework and its features. For beginners.",
+              "url": "https://www.youtube.com/watch?v=1f6xtJpRx4k&list=PLhW3qG5bs-L-y5Q1zDXJAur1JNZVFB534",
+              "urlLabel": "Automation Step by Step - Karate Video Tutorial"
+            },
+            {
+              "description": "This artical shows Karate setup and shows variables, simple API requests, and assertions in Karate",
+              "url": "https://www.kloia.com/blog/step-1-introduction-to-karate-project-setup-hello-world",
+              "urlLabel": "Karate introductory atricle"
+            }           
+          ]
+        },
+        {
+          "name": "Contract testing",
+          "data": [
+            {
+              "description": "This article compares contract testing with other types of tests.",
+              "url": "https://alexromanov.github.io/2021/07/12/should-you-use-contract-testing/?",
+              "urlLabel": "Contract testing vs. other types of tests"
+            },
+            {
+              "description": "These Pact video tutorials present Pact modules, language, schemas and tables.",
+              "url": "https://www.youtube.com/watch?v=BedEHtwLLes&list=PL4G3uLl2K-dlzQkRXeCTbfpbZUVSmRrq7",
+              "urlLabel": "Pact video tutorial for beginners"
+            },
+            {
+              "description": "These Pact video tutorials present control flow, interfaces.",
+              "url": "https://www.youtube.com/watch?v=fbZpsQAqz48&list=PL4G3uLl2K-dn5-V0MogoBSlCwCUyJQJqZ",
+              "urlLabel": "Pact video intermediate tutorial"
+            }           
           ]
         }
       ]
     }
-  ],
+   ],
   "expert": [
     {
       "Cloud-Based Cross Browser Testing": [
