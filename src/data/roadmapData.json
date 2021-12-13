@@ -298,6 +298,26 @@
           ]
         },
         {
+          "name": "TypeScript",
+          "data": [
+            {
+              "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript.",
+              "url": "https://medium.com/jspoint/typescript-a-beginners-guide-6956fe8bcf9e",
+              "urlLabel": "TypeScript - introduction and history"
+            },
+            {
+              "description": "You will learn how to apply the JavaScript syntax you already know to TypeScript’s type system. This will help you build your own programming experience and give your code more structure. You’ll also use TypeScript’s linter to reduce compilation errors and speed up workflow.",
+              "url": "https://www.codecademy.com/learn/learn-typescript",
+              "urlLabel": "Learn TypeScript Codecademy course"
+            },
+            {
+              "description": "Use TypeScript and its Features like Types, ES6 Support, Classes, Modules, Interfaces and much more in any of their Projects. Learn why TypeScript offers a real advantage over vanilla JavaScript",
+              "url": "https://www.udemy.com/course/understanding-typescript/",
+              "urlLabel": "Understanding TypeScript - 2022 Edition"
+            }
+          ]
+        },
+        {
           "name": "Java",
           "data": [
             {
@@ -434,6 +454,16 @@
               "description": "Testing Javascript by Kent C. Dodds is a course that goes through all the levels of testing Javascript - it starts from static and goes all the way up to e2e testing",
               "url": "https://testingjavascript.com/",
               "urlLabel": "Testing Javascript website"
+            }
+          ]
+        },
+        {
+          "name": "Starting with TypeScript in Cypress",
+          "data": [
+            {
+              "description": "Learn how to use TypeScript with Cypress and what are the potential benefits",
+              "url": "https://filiphric.com/starting-with-typescript-in-cypress",
+              "urlLabel": "Starting with TypeScript in Cypress"
             }
           ]
         }
