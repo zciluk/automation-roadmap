@@ -238,7 +238,7 @@
       ]
     },
     {
-      "HTML & CSS": [
+      "HTML, CSS & Locators": [
         {
           "name": "HTML",
           "data": [
@@ -256,6 +256,21 @@
               "description": "\"CSS (Cascading Style Sheets) is the code that styles web content. Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements.\"",
               "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
               "urlLabel": "CSS basics"
+            }
+          ]
+        },
+        {
+          "name": "Locators / Selectors",
+          "data": [
+            {
+              "description": "Everything you see on a webpage is an element. Every field, link, image, text and many things you don’t see are all elements. In order to interact with them we first need to find (locate / select) them. \n \n For that we use locators (AKA selectors) which are various methods for finding an element on a page. \n \n There are many different types of locators. For example: attribute (like ID, class), XPath, CSS selector, text and others. Deciding which one to use depends on a lot of different factors and there is no correct answer other than the one that works for you.",
+              "url": "https://www.webperformance.com/load-testing-tools/blog/articles/real-browser-manual/building-a-testcase/how-locate-element-the-page/type-element-locators/",
+              "urlLabel": "Types of Element Locators"
+            },
+            {
+              "description": "",
+              "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
+              "urlLabel": "Web Element Locator Strategies"
             }
           ]
         }
