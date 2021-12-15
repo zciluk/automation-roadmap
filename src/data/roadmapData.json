@@ -615,7 +615,7 @@
           "name": "NG Mobile QA Academy - Appium setup",
           "data": [
             {
-              "description": "The tutorial explains how to install Appium and how to setup project in Appium. You will need to ask for permission to access this Netguru internal material.",
+              "description": "[NETGURALS ONLY] The tutorial explains how to install Appium and how to setup project in Appium. You will need to ask for permission to access this Netguru internal material.",
               "url": "https://drive.google.com/file/d/1O9MTIFZeTDxJpWsa7j-GAtpO0ROBGcky/view",
               "urlLabel": "Tutorial movie"
             },
@@ -630,7 +630,7 @@
           "name": "NG Mobile QA Academy - First tests in Appium",
           "data": [
             {
-              "description": "The tutorial explains how to write your first tests in Appium. You will need to ask for permission to access this Netguru internal material.",
+              "description": "[NETGURALS ONLY] The tutorial explains how to write your first tests in Appium. You will need to ask for permission to access this Netguru internal material.",
               "url": "https://drive.google.com/file/d/1tWmmnu5vh_saqfttr20_EaEHP7BtKrzY/view",
               "urlLabel": "Tutorial movie"
             },
@@ -642,10 +642,10 @@
           ]
         },
         {
-          "name": "NG Mobile QA Academy - Page Object Pattren in Appium",
+          "name": "NG Mobile QA Academy - Page Object Pattern in Appium",
           "data": [
             {
-              "description": "The tutorial explains how to write tests in Appium using Page Object Pattern. You will need to ask for permission to access this Netguru internal material.",
+              "description": "[NETGURALS ONLY] The tutorial explains how to write tests in Appium using Page Object Pattern. You will need to ask for permission to access this Netguru internal material.",
               "url": "https://drive.google.com/file/d/1aJGlG-IAHbZK0rvxtjWPh2-UggrLnBDz/view",
               "urlLabel": "Tutorial movie"
             },
@@ -660,7 +660,7 @@
           "name": "NG Mobile QA Academy - Continuous Intergation in Bitrise",
           "data": [
             {
-              "description": "The tutorial explains how to run your Appium tests using Bitrise, the CI tool for mobile projects. You will need to ask for permission to access this Netguru internal material.",
+              "description": "[NETGURALS ONLY] The tutorial explains how to run your Appium tests using Bitrise, the CI tool for mobile projects. You will need to ask for permission to access this Netguru internal material.",
               "url": "https://drive.google.com/file/d/1sGRHmOZZWzsV9vNqsrwjE-_bZ_ekhLJy/view",
               "urlLabel": "Tutorial movie"
             },
@@ -675,7 +675,7 @@
           "name": "NG Mobile QA Academy - Appium alternatives",
           "data": [
             {
-              "description": "The tutorial is about the alternatives to Appium. You will need to ask for permission to access this Netguru internal material.",
+              "description": "[NETGURALS ONLY] The tutorial is about the alternatives to Appium. You will need to ask for permission to access this Netguru internal material.",
               "url": "https://drive.google.com/file/d/1J0MGqkAY41UqJ8JHgpLgcjsX_76qb6Hf/view",
               "urlLabel": "Tutorial movie"
             },
