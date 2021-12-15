@@ -93,7 +93,7 @@
               "description": "How to download and install Git?",
               "url": "https://git-scm.com/download/mac",
               "urlLabel": "Official Git page downloader"
-            },         
+            },
             {
               "description": "Atlassian Git download and install tutorial",
               "url": "https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer",
@@ -238,14 +238,39 @@
       ]
     },
     {
-      "Html & css": [
+      "HTML, CSS & Locators": [
         {
-          "name": "Web elements",
+          "name": "HTML",
           "data": [
             {
-              "description": "In this course, we will use Google Chrome developer tools to look under the hood at the HTML, CSS and JavaScript that make up web pages.",
+              "description": "\"HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. \n \n For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. \n \n HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.\"",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+              "urlLabel": "HTML basics"
+            }
+          ]
+        },
+        {
+          "name": "CSS",
+          "data": [
+            {
+              "description": "\"CSS (Cascading Style Sheets) is the code that styles web content. Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements.\"",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
+              "urlLabel": "CSS basics"
+            }
+          ]
+        },
+        {
+          "name": "Locators / Selectors",
+          "data": [
+            {
+              "description": "Everything you see on a webpage is an element. Every field, link, image, text and many things you don’t see are all elements. In order to interact with them we first need to find (locate / select) them. \n \n For that we use locators (AKA selectors) which are various methods for finding an element on a page. \n \n There are many different types of locators. For example: attribute (like ID, class), XPath, CSS selector, text and others. Deciding which one to use depends on a lot of different factors and there is no correct answer other than the one that works for you.",
+              "url": "https://www.webperformance.com/load-testing-tools/blog/articles/real-browser-manual/building-a-testcase/how-locate-element-the-page/type-element-locators/",
+              "urlLabel": "Types of Element Locators"
+            },
+            {
+              "description": "",
               "url": "https://testautomationu.applitools.com/web-element-locator-strategies/",
-              "urlLabel": "Web elements"
+              "urlLabel": "Web Element Locator Strategies"
             }
           ]
         }
@@ -505,7 +530,7 @@
           }
         ]
       }
-  
+
     ]
     },
     {
@@ -553,7 +578,7 @@
               "description": "This course covers commonly used CI tools and does a deep dive into installing and configuring Jenkins. It describes how to create, configure, and execute jobs in Jenkins, including automated test execution",
               "url": "https://testautomationu.applitools.com/jenkins-tutorial/",
               "urlLabel": "Test Automation University"
-            }            
+            }
           ]
         },
         {
@@ -701,7 +726,7 @@
               "description": "Coursera guided project that teaches how to build API test automation framework using Rest Assured.",
               "url": "https://www.coursera.org/projects/building-api-test-automation-framework-using-rest-assured",
               "urlLabel": "REST Assured Coursera Guided Project"
-            }           
+            }
           ]
         },
         {
@@ -716,7 +741,7 @@
               "description": "This artical shows Karate setup and shows variables, simple API requests, and assertions in Karate",
               "url": "https://www.kloia.com/blog/step-1-introduction-to-karate-project-setup-hello-world",
               "urlLabel": "Karate introductory atricle"
-            }           
+            }
           ]
         },
         {
@@ -736,7 +761,7 @@
               "description": "These Pact video tutorials present control flow, interfaces.",
               "url": "https://www.youtube.com/watch?v=fbZpsQAqz48&list=PL4G3uLl2K-dn5-V0MogoBSlCwCUyJQJqZ",
               "urlLabel": "Pact video intermediate tutorial"
-            }           
+            }
           ]
         }
       ]
