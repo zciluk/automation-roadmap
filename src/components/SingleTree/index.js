@@ -32,7 +32,10 @@ const SingleTree = ({ data, color }) => {
                       <Grid.Row>
                         <Popup
                           content={
-                            <PopupContent data={subSkill.data} color={color} />
+                            <PopupContent
+                              data={subSkill.data}
+                              ngOnly={subSkill.ngOnly}
+                            />
                           }
                           on="click"
                           size="small"
