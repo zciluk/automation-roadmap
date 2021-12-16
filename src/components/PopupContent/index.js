@@ -1,10 +1,15 @@
-import { Button, Icon } from "semantic-ui-react";
+import { Button, Icon, Label } from "semantic-ui-react";
 import showndown from "showdown";
 import Parser from "html-react-parser";
 
 const converter = new showndown.Converter();
-const PopupContent = ({ data, color }) => (
+const PopupContent = ({ data, ngOnly }) => (
   <p>
+    {ngOnly && (
+      <Label attached="top" color="green">
+        Netguru only
+      </Label>
+    )}
     {data.map((popupDetails) => (
       <p>
         <p>{Parser(converter.makeHtml(popupDetails.description))}</p>
