@@ -47,6 +47,7 @@ const SingleTree = ({ data, color }) => {
                               size="small"
                               color={color}
                               content={subSkill.name}
+                              basic={subSkill.optional}
                             />
                           }
                         />
