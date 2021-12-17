@@ -387,14 +387,24 @@
   ],
   "intermediate": [
     {
-      "Automation patterns": [
+      "Design Patterns": [
+        {
+          "name": "Introduction to Design Patterns",
+          "data": [
+            {
+              "description": "\"The Design patterns are defined as the best practices that a programmer must follow to amplify code reusability in a framework. The design pattern explains how to plan the test automation test ware to be useful and easy to maintain. \n\n Discard many test automation projects due to the frameworks' inability to cope with the growing codebases or test suites. Automation engineers should optimize their code to keep the maintenance cost low by using the best design procedures and code coverage of existing functionality for common or repeated operations.\"",
+              "url": "https://www.xenonstack.com/insights/design-patterns",
+              "urlLabel": "Introduction to Design Patterns"
+            }
+          ]
+        },
         {
           "name": "Top Design Patterns",
           "data": [
             {
-              "description": "Design Patterns",
+              "description": "\"Design patterns are like collections of best practices as they provide a concept but not particular implementations. Design patterns help reduce code complexity—as well as make code more extensible, and maintainable. \n\n Design patterns are grouped into three categories: \n\n * Structural patterns - explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient. \n * Creational patterns - provide various object creation mechanisms, which increase flexibility and reuse of existing code. \n * Behavioral patterns - are concerned with algorithms and the assignment of responsibilities between objects.\"",
               "url": "https://www.devbridge.com/articles/top-design-pattern-test-automation-frameworks/",
-              "urlLabel": "Design Patterns"
+              "urlLabel": "Top Design Patterns"
             }
           ]
         },
@@ -402,7 +412,7 @@
           "name": "Page Object Models (POM)",
           "data": [
             {
-              "description": "Page Object Models",
+              "description": "\"Page Object Model is a design pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication. A page object is an object-oriented class that serves as an interface to a page of your system under test. \n\n The tests then use the methods of this page object class whenever they need to interact with the UI of that page, the benefit is that if the UI changes for the page, the tests themselves don’t need to be changed, only the code within the page object needs to change. \n\n Subsequently all changes to support that new UI are located in one place.\"",
               "url": "https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b",
               "urlLabel": "Page Object Models"
             }
@@ -412,9 +422,9 @@
           "name": "App Actions",
           "data": [
             {
-              "description": "App Actions",
+              "description": "In App Actions pattern we interact with the actual JS code of the application to prepare its state instead of doing it via interacting with the HTML elements like we usually do during tests. One of main benefits of using App Actions is making tests run faster.",
               "url": "https://www.cypress.io/blog/2019/01/03/stop-using-page-objects-and-start-using-app-actions/",
-              "urlLabel": "App Actions, Cypress"
+              "urlLabel": "App Actions in Cypress"
             }
           ]
         },
@@ -422,7 +432,7 @@
           "name": "Screenplay Pattern",
           "data": [
             {
-              "description": "Screenplay Pattern",
+              "description": "\"The Screenplay Pattern is an approach to writing high quality automated acceptance tests based on good software engineering principles such as the Single Responsibility Principle, and the Open-Closed Principle. \n\n It favours composition over inheritance, and employs thinking from Domain Driven Design to reflect the domain of performing acceptance tests, steering you towards the effective use of layers of abstraction. \n\n It encourages good testing habits and well-designed test suites that are easy to read, easy to maintain and easy to extend, enabling teams to write more robust and more reliable automated tests more effectively.\"",
               "url": "https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay/",
               "urlLabel": "Screenplay Pattern"
             }
