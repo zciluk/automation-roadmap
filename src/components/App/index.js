@@ -14,22 +14,13 @@ import roadmapData from "../../data/roadmapData.json";
 import SingleTree from "../SingleTree";
 
 const App = () => {
-  const [state, setState] = useState({
-    showInstruction:
-      localStorage.getItem("instructionViewedAR") === "true" ? false : true,
-  });
+  const [isInstructionDisplayed, setIsInstructionDisplayed] = useState(
+    localStorage.getItem("instructionViewedAR") ? false : true
+  );
 
-  const openInstruction = () =>
-    setState((prevState) => ({
-      ...prevState,
-      showInstruction: true,
-    }));
-  const handleCloseInstruction = () => {
+  const handleInstructionModal = () => {
     localStorage.setItem("instructionViewedAR", true);
-    setState((prevState) => ({
-      ...prevState,
-      showInstruction: false,
-    }));
+    setIsInstructionDisplayed(!isInstructionDisplayed);
   };
 
   return (
@@ -42,18 +33,18 @@ const App = () => {
         </p>
       </Header>
       <Header as="h4" textAlign="center">
-        <Button circular size="small" basic onClick={openInstruction}>
+        <Button circular size="small" basic onClick={handleInstructionModal}>
           How to use
         </Button>
         <Transition
-          visible={state.showInstruction}
+          visible={isInstructionDisplayed}
           animation="scale"
           duration={500}
         >
           <Modal
             dimmer="blurring"
-            open={state.showInstruction}
-            onClose={handleCloseInstruction}
+            open={isInstructionDisplayed}
+            onClose={handleInstructionModal}
           >
             <Modal.Header>How to use this roadmap?</Modal.Header>
             <Modal.Content>
@@ -90,7 +81,7 @@ const App = () => {
               </p>
             </Modal.Content>
             <Modal.Actions>
-              <Button positive onClick={handleCloseInstruction}>
+              <Button positive onClick={handleInstructionModal}>
                 Close
               </Button>
             </Modal.Actions>
