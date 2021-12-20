@@ -754,6 +754,7 @@
         },
         {
           "name": "Insomnia",
+          "optional": true,
           "data": [
             {
               "description": "This video presents Insomnia REST Client and how you can use it in your Exploratory API Testing",
@@ -809,6 +810,7 @@
         },
         {
           "name": "API Test Frameworks - Karate",
+          "optional": true,
           "data": [
             {
               "description": "This course presents Karate framework and its features. For beginners.",
