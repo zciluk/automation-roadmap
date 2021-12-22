@@ -176,26 +176,6 @@
           ]
         },
         {
-          "name": "Atom",
-          "data": [
-            {
-              "description": "Source code editor developed by GitHub",
-              "url": "https://atom.io/",
-              "urlLabel": "Atom main page"
-            }
-          ]
-        },
-        {
-          "name": "Sublime Text",
-          "data": [
-            {
-              "description": "Sublime Text is a sophisticated text editor for code, markup and prose",
-              "url": "https://sublimetext.com/",
-              "urlLabel": "Sublime Text main page"
-            }
-          ]
-        },
-        {
           "name": "Visual Studio",
           "data": [
             {
@@ -222,6 +202,28 @@
               "description": "IntelliJ is an IDE for Java and related technologies (Kotlin for example), one of many IDE developed by Jetbrains",
               "url": "https://jetbrains.com/idea/",
               "urlLabel": "IntelliJ IDEA main page"
+            }
+          ]
+        },
+        {
+          "name": "Atom",
+          "optional": true,
+          "data": [
+            {
+              "description": "Source code editor developed by GitHub",
+              "url": "https://atom.io/",
+              "urlLabel": "Atom main page"
+            }
+          ]
+        },
+        {
+          "name": "Sublime Text",
+          "optional": true,
+          "data": [
+            {
+              "description": "Sublime Text is a sophisticated text editor for code, markup and prose",
+              "url": "https://sublimetext.com/",
+              "urlLabel": "Sublime Text main page"
             }
           ]
         },
@@ -494,7 +496,19 @@
           ]
         },
         {
+          "name": "Working with API response in Cypress",
+          "optional": true,
+          "data": [
+            {
+              "description": "Very good blogpost about handling API response data in Cypress - it shows a nice way of getting and storing received data. Useful method for mocking the test data on test environments.",
+              "url": "https://filiphric.com/working-with-api-response-data-in-cypress",
+              "urlLabel": "Blogpost by Filip Hric"
+            }
+          ]
+        },
+        {
           "name": "Starting with TypeScript in Cypress",
+          "optional": true,
           "data": [
             {
               "description": "Learn how to use TypeScript with Cypress and what are the potential benefits",
@@ -641,6 +655,7 @@
         },
         {
           "name": "Gauge - another way to write business specs",
+          "optional": true,
           "data": [
             {
               "description": "Gauge is multilanguage framework that allows us to write easy-readable test specs. It has many features (like tags, concepts, data tables) that can speed up documentation process. It also has a nice documentation on their website, provided below. ",
