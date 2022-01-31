@@ -632,6 +632,52 @@
       ]
     },
     {
+      "Visual Testing Automation": [
+        {
+          "name": "What is Visual Testing?",
+          "data": [
+            {
+              "description": "Visual Testing verifies that the software user interface (UI) appears correctly to all users. Essentially, visual tests check that each element on a web page appears in the right shape, size, and position. It also checks that these elements appear and function perfectly on a variety of devices and browsers. In other words, visual testing factors in how multiple environments, screen sizes, OSes, and other variables will affect software. \n \n Visual testing can be done manually (in fact it is done \"unconsciously\" every time someone is testing) but it also can be automated. Thanks to automation visual testing can be executed way quicker and with less chance of human error.",
+              "url": "https://www.browserstack.com/guide/visual-testing-beginners-guide#toc0",
+              "urlLabel": "BrowserStack's beginners guide to visual testing"
+            }
+          ]
+        },
+        {
+          "name": "Percy",
+          "data": [
+            {
+              "description": "Percy by BrowserStack is an automated visual review platform - it is designed to take full care of visual testing, the platform renders, takes screenshots and compares them on Percy's infrastructure that is solely designed to handle visual testing. It can be easily integrated with any e2e testing framework. \n \n Percy is our \"go to\" visual regression tool in Netguru.",
+              "url": "https://percy.io/",
+              "urlLabel": "Percy main page"
+            }
+          ]
+        },
+        {
+          "name": "Applitools Eyes",
+          "optional": true,
+          "data": [
+            {
+              "description": "Applitools Eyes is a visual testing platform - its main selling point is that it is powered by Visual AI which helps to make tests stable, fast, and efficient.",
+              "url": "https://applitools.com/products-eyes/",
+              "urlLabel": "Applitools Eyes product page"
+            }
+          ]
+        },
+        {
+          "name": "BackstopJS",
+          "optional": true,
+          "data": [
+            {
+              "description": "BackstopJS is a free, open source visual regression testing framework that is maintained by an active community. It cannot be easily integrated with existing e2e tests because it uses its own code to navigate and interact with the browser.",
+              "url": "https://github.com/garris/BackstopJS",
+              "urlLabel": "BackstopJS Github page"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "BDD": [
         {
           "name": "What is BDD and why to use it?",
