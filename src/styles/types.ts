@@ -1,4 +1,5 @@
-export type Colors = "primary" | "beginner" | "intermediate" | "expert";
+export const AppColors = ["primary", "beginner", "intermediate", "expert"] as const;
+export type Colors = typeof AppColors[number];
 
 export interface ColorScale {
   500: string;
