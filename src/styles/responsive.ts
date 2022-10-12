@@ -1,12 +1,14 @@
 export const size = {
-  mobile: "425px",
-  tablet: "768px",
-  desktop: "1023px",
+  //Breakpoint with portrait orientation in mind
+  tablet: "1023px",
+  desktop: "1400px",
 };
 
 export const mediaQuery = {
   mobile: `@media screen and (max-width: ${size.tablet})`,
-  tablet: `@media screen and (min-width: ${size.tablet}) and (max-width: ${size.desktop})`,
+  tablet: `@media screen and (min-width: ${parseInt(size.tablet, 10) + 1}px) and (max-width: ${
+    size.desktop
+  })`,
   desktop: `@media screen and (min-width: ${size.desktop})`,
 };
 
