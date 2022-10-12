@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
+import ReactMarkdown from "react-markdown";
 import { LessonSection } from "models";
 import { LessonContainer } from "./RoadmapLesson.styled";
 import Button from "atoms/Button/Button";
@@ -10,12 +11,12 @@ const RoadmapLesson: React.FC<RoadmapLessonProps> = ({ sections }) => {
   return (
     <LessonContainer>
       {sections.map((section, i) => (
-        <>
-          {section.description && <p>{section.description}</p>}
-          <a href={section.url}>
+        <Fragment key={i}>
+          {section.description && <ReactMarkdown children={section.description} />}
+          <a href={section.url} target="_blank" rel="noopener noreferrer">
             <Button variant="primary">{section.urlLabel}</Button>
           </a>
-        </>
+        </Fragment>
       ))}
     </LessonContainer>
   );

@@ -7,9 +7,7 @@ export const POPOVER_HEADER_HEIGHT = "48px";
 
 export const PopoverContainer = styled.div`
   background: #ffffff;
-  box-shadow: 0px 209px 84px rgba(37, 47, 42, 0.02), 0px 118px 71px rgba(37, 47, 42, 0.07),
-    0px 52px 52px rgba(37, 47, 42, 0.12), 0px 13px 29px rgba(37, 47, 42, 0.14),
-    0px 0px 0px rgba(37, 47, 42, 0.14);
+  box-shadow: 0px 0px 33px 6px rgba(66, 68, 90, 0.35);
   border-radius: 8px;
   width: fit-content;
   max-width: 300px;
