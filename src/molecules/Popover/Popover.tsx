@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Button from "atoms/Button/Button";
 import { Popover as HeadlessPopover } from "@headlessui/react";
-import { NetguruOnly, PopoverContainer, PopoverContent } from "./Popover.styled";
+import { Header, PopoverContainer, PopoverContent } from "./Popover.styled";
 import { Colors } from "styles/types";
 import { ButtonVariants } from "atoms/Button/types";
 import { usePopper } from "react-popper";
 
 interface PopoverProps {
-  isNetguruOnly?: boolean;
+  headerText?: string;
   triggerText: string;
   triggerVariant?: ButtonVariants;
   triggercolor?: Colors;
@@ -19,7 +19,7 @@ const Popover: React.FC<PopoverProps> = ({
   triggerText,
   triggerVariant,
   triggercolor,
-  isNetguruOnly,
+  headerText,
 }) => {
   let [referenceElement, setReferenceElement] = useState() as any;
   let [popperElement, setPopperElement] = useState() as any;
@@ -65,7 +65,7 @@ const Popover: React.FC<PopoverProps> = ({
         {...attributes.popper}
       >
         <div id="arrow" ref={setArrowElement} style={styles.arrow}></div>
-        {isNetguruOnly && <NetguruOnly>Netguru only</NetguruOnly>}
+        {headerText && <Header>{headerText}</Header>}
         <PopoverContent>{children}</PopoverContent>
       </HeadlessPopover.Panel>
     </HeadlessPopover>

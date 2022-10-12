@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { colorsPalette } from "styles";
-import { mediaQuery } from "styles/responsive";
 
-const POPOVER_PADDING = "16px";
+export const POPOVER_PADDING = "16px";
+export const POPOVER_MAX_HEIGHT = "70vh";
+export const POPOVER_HEADER_HEIGHT = "48px";
 
 export const PopoverContainer = styled.div`
   background: #ffffff;
@@ -50,12 +51,12 @@ export const PopoverContainer = styled.div`
   }
 `;
 
-export const NetguruOnly = styled.div`
+export const Header = styled.div`
   padding: ${POPOVER_PADDING};
   border-radius: 8px 8px 0 0;
   background-color: ${colorsPalette.primary[500]};
   width: 100%;
-  height: 40px;
+  height: ${POPOVER_HEADER_HEIGHT};
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -64,10 +65,6 @@ export const NetguruOnly = styled.div`
 
 export const PopoverContent = styled.div`
   padding: ${POPOVER_PADDING};
-  overflow-y: auto;
-  max-height: 70vh;
-
-  ${mediaQuery.desktop} {
-    max-height: 300px;
-  }
+  max-height: ${POPOVER_MAX_HEIGHT};
+  overflow-y: hidden;
 `;
